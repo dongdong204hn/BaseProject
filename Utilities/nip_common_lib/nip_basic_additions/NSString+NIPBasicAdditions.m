@@ -7,6 +7,7 @@
 //
 
 #import "NSString+NIPBasicAdditions.h"
+#import "NSData+NIPBasicAdditions.h"
 #import <CommonCrypto/CommonDigest.h>
 #import "nip_macros.h"
 

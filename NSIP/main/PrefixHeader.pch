@@ -15,7 +15,6 @@
 #import "NIPreciousLocalSettings.h"
 #import "PureLayout.h"
 #import "NIPURLHandler+ComponentsDemo.h"
-#import "SeparationHeader.h"
 #endif
 
 

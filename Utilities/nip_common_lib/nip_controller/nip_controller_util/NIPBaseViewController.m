@@ -8,7 +8,6 @@
 
 #import "NIPBaseViewController.h"
 #import "MBProgressHUD.h"
-#import "NIPImageFactory.h"
 #import "UIView+NIPBasicAdditions.h"
 #import "UIDevice+NIPBasicAdditions.h"
 #import "NIPUIFactory.h"
@@ -171,7 +170,15 @@
 
 -(void)setNaviLeftViewIfNeeded {
     if (self.navigationController && self.navigationController.viewControllers.count > 1) {
-        self.naviLeftView = [NIPUIFactory buttonWithImage:[self imageForNaviLeftView] target:self selector:@selector(baseBackButtonPressed:)];
+        if (self.naviLeftView) {
+            [self.naviLeftView setHidden:NO];
+        } else {
+            self.naviLeftView = [NIPUIFactory buttonWithImage:[self imageForNaviLeftView] target:self selector:@selector(baseBackButtonPressed:)];
+        }
+    } else {
+        if (self.naviLeftView) {
+            [self.naviLeftView setHidden:YES];
+        }
     }
 }
 
@@ -475,7 +482,7 @@
 }
 
 - (UIImage *)imageForNaviLeftView {
-    return [NIPImageFactory navigationBarWhiteBackImage];
+    return [UIImage imageNamed:@"nip_white_back_btn"];
 }
 
 @end

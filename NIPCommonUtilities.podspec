@@ -183,5 +183,7 @@ Pod::Spec.new do |s|
       nip_network.dependency 'NIPCommonUtilities/nip_basic_utils'
       nip_network.dependency 'AFNetworking', '~> 3.1.0'
   end
+  
+  s.resources = "Utilities/nip_common_lib/*.png" 
 
 end
