@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint NIPCommonUtilities.podspec' to ensure this is a
+#  Be sure to run `pod spec lint NIPFegoBaseLib.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -145,22 +145,22 @@ Pod::Spec.new do |s|
   s.subspec 'nip_basic_additions' do |nip_basic_additions|
       nip_basic_additions.source_files = 'Utilities/nip_common_lib/nip_basic_additions/*',
       nip_basic_additions.public_header_files = 'Utilities/nip_common_lib/nip_basic_additions/*.h'
-      nip_basic_additions.dependency 'NIPCommonUtilities/nip_macros'
+      nip_basic_additions.dependency 'NIPFegoBaseLib/nip_macros'
   end
 
   s.subspec 'nip_basic_utils' do |nip_basic_utils|
       nip_basic_utils.source_files = 'Utilities/nip_common_lib/nip_basic_utils/*','Utilities/nip_common_lib/nip_basic_utils/nip_pinyin/nip_pinyin_class/*'
       nip_basic_utils.public_header_files = 'Utilities/nip_common_lib/nip_basic_utils/*.h','Utilities/nip_common_lib/nip_basic_utils/nip_pinyin/nip_pinyin_class/*.h'
-      nip_basic_utils.dependency 'NIPCommonUtilities/nip_macros'
-      nip_basic_utils.dependency 'NIPCommonUtilities/nip_basic_additions'
+      nip_basic_utils.dependency 'NIPFegoBaseLib/nip_macros'
+      nip_basic_utils.dependency 'NIPFegoBaseLib/nip_basic_additions'
       nip_basic_utils.resource = "Utilities/nip_common_lib/nip_basic_utils/nip_pinyin/nip_pinyin_resources/unicode_to_hanyu_pinyin.txt",'Utilities/nip_common_lib/resources/*'
   end
 
   s.subspec 'nip_controller' do |nip_controller|
       nip_controller.source_files = 'Utilities/nip_common_lib/nip_controller/*',"Utilities/nip_common_lib/nip_controller/nip_controller_url/*","Utilities/nip_common_lib/nip_controller/nip_controller_util/*"
       nip_controller.public_header_files = 'Utilities/nip_common_lib/nip_controller/*.h','Utilities/nip_common_lib/nip_controller/nip_controller_url/*.h','Utilities/nip_common_lib/nip_controller/nip_controller_util/*.h'
-      nip_controller.dependency 'NIPCommonUtilities/nip_basic_additions'
-      nip_controller.dependency 'NIPCommonUtilities/nip_ui'
+      nip_controller.dependency 'NIPFegoBaseLib/nip_basic_additions'
+      nip_controller.dependency 'NIPFegoBaseLib/nip_ui'
       nip_controller.dependency 'MBProgressHUD', '~> 1.0.0'
   end
 
@@ -168,19 +168,19 @@ Pod::Spec.new do |s|
       nip_introspection.source_files = "Utilities/nip_common_lib/nip_introspection/*"
       nip_introspection.public_header_files = "Utilities/nip_common_lib/nip_introspection/*.h"
   #    nip_introspection.resource = "Pod/Assets/MLSUIKitResource.bundle"
-      nip_introspection.dependency 'NIPCommonUtilities/nip_basic_utils'
+      nip_introspection.dependency 'NIPFegoBaseLib/nip_basic_utils'
   end
 
   s.subspec 'nip_ui' do |nip_ui|
       nip_ui.source_files = "Utilities/nip_common_lib/nip_ui/*","Utilities/nip_common_lib/nip_ui/nip_ui_additions/*","Utilities/nip_common_lib/nip_ui/nip_ui_alert/*","Utilities/nip_common_lib/nip_ui/nip_ui_container/*","Utilities/nip_common_lib/nip_ui/nip_ui_layout/*","Utilities/nip_common_lib/nip_ui/nip_ui_popup/*","Utilities/nip_common_lib/nip_ui/nip_ui_util/*","Utilities/nip_common_lib/nip_ui/nip_ui_views/*"
       nip_ui.public_header_files = 'Utilities/nip_common_lib/nip_ui/*.h','Utilities/nip_common_lib/nip_ui/nip_ui_additions/*.h','Utilities/nip_common_lib/nip_ui/nip_ui_alert/*.h','Utilities/nip_common_lib/nip_ui/nip_ui_container/*.h','Utilities/nip_common_lib/nip_ui/nip_ui_layout/*.h','Utilities/nip_common_lib/nip_ui/nip_ui_popup/*.h','Utilities/nip_common_lib/nip_ui/nip_ui_util/*.h','Utilities/nip_common_lib/nip_ui/nip_ui_views/*.h'
-      nip_ui.dependency 'NIPCommonUtilities/nip_basic_utils'
+      nip_ui.dependency 'NIPFegoBaseLib/nip_basic_utils'
   end
 
   s.subspec 'nip_network' do |nip_network|
       nip_network.source_files = "Utilities/nip_common_lib/nip_network/*","Utilities/nip_common_lib/nip_network/nip_httpManager/*","Utilities/nip_common_lib/nip_network/nip_request/*","Utilities/nip_common_lib/nip_network/nip_response/*","Utilities/nip_common_lib/nip_network/transcoder&encryptor/*"
       nip_network.public_header_files = 'Utilities/nip_common_lib/nip_network/*.h','Utilities/nip_common_lib/nip_network/nip_httpManager/*.h','Utilities/nip_common_lib/nip_network/nip_request/*.h','Utilities/nip_common_lib/nip_network/nip_response/*.h','Utilities/nip_common_lib/nip_network/transcoder&encryptor/*.h'
-      nip_network.dependency 'NIPCommonUtilities/nip_basic_utils'
+      nip_network.dependency 'NIPFegoBaseLib/nip_basic_utils'
       nip_network.dependency 'AFNetworking', '~> 3.1.0'
   end
   
