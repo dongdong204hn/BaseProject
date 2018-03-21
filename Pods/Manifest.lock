@@ -1,0 +1,123 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AspectsV1.4.2 (1.4.2)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - FDFullscreenPopGesture (1.1)
+  - GoogleProtobuf (2.6.1)
+  - JLRoutes (1.6.4)
+  - JSONKit-NoWarning (1.2)
+  - LDEventCollection (0.2.10):
+    - LDPositioning (~> 0.1.1)
+    - ProtocolBuffers
+  - LDHostHTTPProtocol (1.1.1)
+  - LDJSBridge (1.0.7)
+  - LDPositioning (0.1.1)
+  - LDSocketPushClient (0.4.5):
+    - CocoaAsyncSocket (~> 7.4.3)
+    - GoogleProtobuf (~> 2.6.1)
+    - MSWeakTimer (~> 1.1.0)
+    - Reachability
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.15.1)
+  - MSWeakTimer (1.1.0)
+  - NIPJSBridge (0.1.1)
+  - ProtocolBuffers (1.9.11)
+  - PureLayout (3.0.2)
+  - Reachability (3.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - UMengUShare/Core (6.4.7):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.7)
+  - UMengUShare/Social/QQ (6.4.7):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.7):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.7):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.7):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.7):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/WeChat (6.4.7):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/Social/YiXin (6.4.7):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.7):
+    - UMengUShare/Core
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AspectsV1.4.2 (~> 1.4.2)
+  - FDFullscreenPopGesture (~> 1.1)
+  - GoogleProtobuf (~> 2.6.1)
+  - JLRoutes (~> 1.6.1)
+  - JSONKit-NoWarning (~> 1.2)
+  - LDEventCollection (~> 0.2.4)
+  - LDHostHTTPProtocol (~> 1.1.1)
+  - LDJSBridge (~> 1.0.7)
+  - LDSocketPushClient (~> 0.4.1)
+  - MBProgressHUD (~> 1.0.0)
+  - MJRefresh (~> 3.1.12)
+  - NIPJSBridge (~> 0.1.1)
+  - PureLayout (~> 3.0.2)
+  - SDWebImage (~> 3.8.2)
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/Sina
+  - UMengUShare/Social/WeChat
+  - UMengUShare/Social/YiXin
+  - UMengUShare/UI
+  - ZipArchive (~> 1.4.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AspectsV1.4.2: a8b168606776215f5ba4790b95ff315df336aca9
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  GoogleProtobuf: 6f0dd22a96385c13bb9b8e6e5b66e81a93e17f58
+  JLRoutes: a2e6efb1b1070feccb6dc68e1646ca870f42115b
+  JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
+  LDEventCollection: c97f1c74d595b05e0c8d35382aa8cb3eac5a21f0
+  LDHostHTTPProtocol: 6874301d4ce86158352baabde0e21bd5cf4f3f43
+  LDJSBridge: 02fac2511533e4140c9d7a3f5bdbc8126a62e2d5
+  LDPositioning: b01c068a257364c856c3b3e01e40e0d5e3642633
+  LDSocketPushClient: aca48ace1e8e1981c4019ce2c749300dbd7157fb
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  NIPJSBridge: aa3ce3d5982dfeb3366da8656f4c32182286df16
+  ProtocolBuffers: d509225eb2ea43d9582a59e94348fcf86e2abd65
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
+  UMengUShare: 5055d0e01c844379e173bdca0840fc9fa9297d88
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: ae549e2f9dbb69be0e23802307726379132ea7c6
+
+COCOAPODS: 1.2.1

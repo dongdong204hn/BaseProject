@@ -1,0 +1,41 @@
+{
+    "update": "",
+    "module": "mapp",
+    "plugins": [
+                {
+                "pluginName": "device",
+                "pluginClass": "NIPDevice",
+                "exports": [
+                            {
+                            "showMethod": "getDeviceInfo",
+                            "realMethod": "getDeviceInfo"
+                            }
+                            ]
+                },
+                {
+                "pluginName": "app",
+                "pluginClass": "NIPAppInfo",
+                "exports": []
+                },
+                {
+                "pluginName": "nav",
+                "pluginClass": "NIPJSUINavCtrl",
+                "exports": []
+                },
+                {
+                "pluginName": "ui",
+                "pluginClass": "NIPUIGlobalCtrl",
+                "exports": []
+                },
+                {
+                "pluginName": "share",
+                "pluginClass": "NIPJSShare",
+                "exports": []
+                },
+                {
+                "pluginName": "sensor",
+                "pluginClass": "NIPJSSensor",
+                "exports": []
+                }
+    ]
+}

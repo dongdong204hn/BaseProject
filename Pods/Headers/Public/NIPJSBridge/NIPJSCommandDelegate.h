@@ -1,0 +1,1 @@
+../../../NIPJSBridge/NIPJSBridge/Classes/Core/NIPJSCommandDelegate.h

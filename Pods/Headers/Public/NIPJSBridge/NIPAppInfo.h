@@ -1,0 +1,1 @@
+../../../NIPJSBridge/NIPJSBridge/Classes/Plugins/NIPAppInfo.h

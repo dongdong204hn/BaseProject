@@ -1,0 +1,12 @@
+{
+    "tabURLS" : [
+                 "zuo",
+                 "zhong",
+                 "you"
+                 ],
+    
+    "commonURLs" : [
+                    ["testPage", "NIPTestPageViewController", "NO", "2"],
+                    ["you/testPage", "NIPTestPageViewController", "NO", "2"]
+                    ]
+}

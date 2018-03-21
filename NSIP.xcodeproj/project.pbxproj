@@ -1,0 +1,2052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070A29881DB5CA3300BA1B64 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 070A29871DB5CA3300BA1B64 /* libc++.tbd */; };
+		071E0B671DC9C75D00AC8F38 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071E0B661DC9C75D00AC8F38 /* Security.framework */; };
+		071E0B691DC9C77E00AC8F38 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071E0B681DC9C77E00AC8F38 /* SystemConfiguration.framework */; };
+		071E0B6B1DC9C78C00AC8F38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071E0B6A1DC9C78C00AC8F38 /* CoreGraphics.framework */; };
+		071E0B6D1DC9C7A700AC8F38 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 071E0B6C1DC9C7A700AC8F38 /* libsqlite3.tbd */; };
+		071E0B6F1DC9C7B000AC8F38 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071E0B6E1DC9C7B000AC8F38 /* CoreTelephony.framework */; };
+		07245ADB1E0B733200C8F641 /* NIPVersionUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 07245ADA1E0B733200C8F641 /* NIPVersionUpdater.m */; };
+		07245AF11E0B750900C8F641 /* NIPLoginSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 07245AF01E0B750900C8F641 /* NIPLoginSession.m */; };
+		0732F3981E139E6200A74C01 /* NIPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3951E139E6200A74C01 /* NIPHomeViewController.m */; };
+		0732F3B21E139F2F00A74C01 /* NIPWatchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3A61E139F2F00A74C01 /* NIPWatchItem.m */; };
+		0732F3B31E139F2F00A74C01 /* NIPPartnerGoodsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3A91E139F2F00A74C01 /* NIPPartnerGoodsResponse.m */; };
+		0732F3B41E139F2F00A74C01 /* NIPBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3AB1E139F2F00A74C01 /* NIPBaseResponse.m */; };
+		0732F3B51E139F2F00A74C01 /* NIPProductService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3AF1E139F2F00A74C01 /* NIPProductService.m */; };
+		0732F3B61E139F2F00A74C01 /* NIPBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3B11E139F2F00A74C01 /* NIPBaseService.m */; };
+		0732F3C81E139FDD00A74C01 /* NIPAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3B91E139FDD00A74C01 /* NIPAlbumCell.m */; };
+		0732F3C91E139FDD00A74C01 /* NIPAlbumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3BB1E139FDD00A74C01 /* NIPAlbumInfo.m */; };
+		0732F3CA1E139FDD00A74C01 /* NIPAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3BD1E139FDD00A74C01 /* NIPAlbumListViewController.m */; };
+		0732F3CB1E139FDD00A74C01 /* NIPAlbumToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3BF1E139FDD00A74C01 /* NIPAlbumToolbarView.m */; };
+		0732F3CC1E139FDD00A74C01 /* NIPNumblerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3C11E139FDD00A74C01 /* NIPNumblerLabel.m */; };
+		0732F3CD1E139FDD00A74C01 /* NIPPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3C31E139FDD00A74C01 /* NIPPhotoCell.m */; };
+		0732F3CE1E139FDD00A74C01 /* NIPPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3C51E139FDD00A74C01 /* NIPPhotoPreviewViewController.m */; };
+		0732F3CF1E139FDD00A74C01 /* NIPPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0732F3C71E139FDD00A74C01 /* NIPPhotosViewController.m */; };
+		074BE9C31DB0AD8000AEAFAC /* NIPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074BE9C21DB0AD8000AEAFAC /* NIPWebViewController.m */; };
+		074BE9CA1DB0BF1D00AEAFAC /* NIPWebNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074BE9C91DB0BF1D00AEAFAC /* NIPWebNavigationController.m */; };
+		074BE9CD1DB0C7DE00AEAFAC /* NIPWebToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 074BE9CC1DB0C7DE00AEAFAC /* NIPWebToolBar.m */; };
+		0762B73B1EFA501F004A2D61 /* NIPTestPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0762B7381EFA501F004A2D61 /* NIPTestPageViewController.m */; };
+		0762B73E1EFA5040004A2D61 /* NIPUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0762B73D1EFA5040004A2D61 /* NIPUserViewController.m */; };
+		07ADB6991D93CE1300766E57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ADB6981D93CE1300766E57 /* main.m */; };
+		07ADB69C1D93CE1300766E57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ADB69B1D93CE1300766E57 /* AppDelegate.m */; };
+		07ADB6A41D93CE1300766E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07ADB6A31D93CE1300766E57 /* Assets.xcassets */; };
+		07ADB6A71D93CE1300766E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07ADB6A51D93CE1300766E57 /* LaunchScreen.storyboard */; };
+		07ADB6B21D93CE1300766E57 /* NSIPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ADB6B11D93CE1300766E57 /* NSIPTests.m */; };
+		07ADB6BD1D93CE1300766E57 /* NSIPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ADB6BC1D93CE1300766E57 /* NSIPUITests.m */; };
+		07ADB6DB1D95259F00766E57 /* NIPURLHandler+ComponentsDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ADB6DA1D95259F00766E57 /* NIPURLHandler+ComponentsDemo.m */; };
+		07ADB6E51D952CCF00766E57 /* NIPURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ADB6E41D952CCF00766E57 /* NIPURLRouter.m */; };
+		07ADB6ED1D95323D00766E57 /* NIPConfigFileUpdateService.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ADB6EC1D95323D00766E57 /* NIPConfigFileUpdateService.m */; };
+		07ADB6F01D953A8900766E57 /* NIPreciousLocalSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ADB6EF1D953A8900766E57 /* NIPreciousLocalSettings.m */; };
+		07ADB6F71D955BD000766E57 /* NSIPPageURLsDataset.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ADB6F61D955BD000766E57 /* NSIPPageURLsDataset.m */; };
+		07ADB6FA1D955F5C00766E57 /* PageURLsInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 07ADB6F91D955F5C00766E57 /* PageURLsInfo.json */; };
+		4D8EDBEFDB87AF1F7529EA93 /* libPods-NSIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6975D1A4FC91C625D64A6F1F /* libPods-NSIP.a */; };
+		AF44B7511E9DC35C00484305 /* UIImage+NIPLoadBundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AF44B7501E9DC35C00484305 /* UIImage+NIPLoadBundleImage.m */; };
+		B002E6501E2767B6006D5CB8 /* NSData+URS.m in Sources */ = {isa = PBXBuildFile; fileRef = B002E5CE1E2767B5006D5CB8 /* NSData+URS.m */; };
+		B002E6511E2767B6006D5CB8 /* NSString+URS.m in Sources */ = {isa = PBXBuildFile; fileRef = B002E5D01E2767B5006D5CB8 /* NSString+URS.m */; };
+		B002E6521E2767B6006D5CB8 /* UIDevice+URS.m in Sources */ = {isa = PBXBuildFile; fileRef = B002E5D21E2767B5006D5CB8 /* UIDevice+URS.m */; };
+		B002E6531E2767B6006D5CB8 /* URSAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = B002E5D51E2767B5006D5CB8 /* URSAuth.m */; };
+		B002E6541E2767B6006D5CB8 /* URSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B002E5D71E2767B5006D5CB8 /* URSRequest.m */; };
+		B03B6C601E2777CD00D279B8 /* NSArray+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B6E1E2777CD00D279B8 /* NSArray+NIPBasicAdditions.m */; };
+		B03B6C611E2777CD00D279B8 /* NSData+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B701E2777CD00D279B8 /* NSData+NIPBasicAdditions.m */; };
+		B03B6C621E2777CD00D279B8 /* NSDate+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B721E2777CD00D279B8 /* NSDate+NIPBasicAdditions.m */; };
+		B03B6C631E2777CD00D279B8 /* NSDateFormatter+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B741E2777CD00D279B8 /* NSDateFormatter+NIPBasicAdditions.m */; };
+		B03B6C641E2777CD00D279B8 /* NSDictionary+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B761E2777CD00D279B8 /* NSDictionary+NIPBasicAdditions.m */; };
+		B03B6C651E2777CD00D279B8 /* NSString+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B781E2777CD00D279B8 /* NSString+NIPBasicAdditions.m */; };
+		B03B6C661E2777CD00D279B8 /* NSURL+NTBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B7A1E2777CD00D279B8 /* NSURL+NTBasicAdditions.m */; };
+		B03B6C671E2777CD00D279B8 /* UIDevice+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B7C1E2777CD00D279B8 /* UIDevice+NIPBasicAdditions.m */; };
+		B03B6C681E2777CD00D279B8 /* UILocalNotification+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B7E1E2777CD00D279B8 /* UILocalNotification+NIPBasicAdditions.m */; };
+		B03B6C691E2777CD00D279B8 /* NIPChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B851E2777CD00D279B8 /* NIPChineseToPinyinResource.m */; };
+		B03B6C6A1E2777CD00D279B8 /* NIPHanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B871E2777CD00D279B8 /* NIPHanyuPinyinOutputFormat.m */; };
+		B03B6C6B1E2777CD00D279B8 /* NIPinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B891E2777CD00D279B8 /* NIPinyinFormatter.m */; };
+		B03B6C6C1E2777CD00D279B8 /* NIPinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B8B1E2777CD00D279B8 /* NIPinyinHelper.m */; };
+		B03B6C6D1E2777CD00D279B8 /* NIPPinYinUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B8D1E2777CD00D279B8 /* NIPPinYinUtil.m */; };
+		B03B6C6E1E2777CD00D279B8 /* NSString+NIPPinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B8F1E2777CD00D279B8 /* NSString+NIPPinYin4Cocoa.m */; };
+		B03B6C6F1E2777CD00D279B8 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = B03B6B911E2777CD00D279B8 /* unicode_to_hanyu_pinyin.txt */; };
+		B03B6C701E2777CD00D279B8 /* NIPAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B931E2777CD00D279B8 /* NIPAction.m */; };
+		B03B6C711E2777CD00D279B8 /* NIPagedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B951E2777CD00D279B8 /* NIPagedArray.m */; };
+		B03B6C731E2777CD00D279B8 /* NIPCocoaSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B991E2777CD00D279B8 /* NIPCocoaSecurity.m */; };
+		B03B6C741E2777CD00D279B8 /* NIPFileService.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B9B1E2777CD00D279B8 /* NIPFileService.m */; };
+		B03B6C751E2777CD00D279B8 /* NIPImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B9D1E2777CD00D279B8 /* NIPImageFactory.m */; };
+		B03B6C761E2777CD00D279B8 /* NIPKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6B9F1E2777CD00D279B8 /* NIPKeychain.m */; };
+		B03B6C771E2777CD00D279B8 /* NIPKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BA11E2777CD00D279B8 /* NIPKeyValue.m */; };
+		B03B6C781E2777CD00D279B8 /* NIPLocalCacheBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BA31E2777CD00D279B8 /* NIPLocalCacheBase.m */; };
+		B03B6C791E2777CD00D279B8 /* NIPLocalSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BA51E2777CD00D279B8 /* NIPLocalSettings.m */; };
+		B03B6C7A1E2777CD00D279B8 /* NIPNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BA71E2777CD00D279B8 /* NIPNotificationManager.m */; };
+		B03B6C7B1E2777CD00D279B8 /* NIPQueuedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BA91E2777CD00D279B8 /* NIPQueuedTask.m */; };
+		B03B6C7C1E2777CD00D279B8 /* NIPSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BAB1E2777CD00D279B8 /* NIPSectionModel.m */; };
+		B03B6C7D1E2777CD00D279B8 /* NIPSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BAD1E2777CD00D279B8 /* NIPSoundManager.m */; };
+		B03B6C7E1E2777CD00D279B8 /* NIPTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BAF1E2777CD00D279B8 /* NIPTaskQueue.m */; };
+		B03B6C7F1E2777CD00D279B8 /* NIPTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BB11E2777CD00D279B8 /* NIPTimer.m */; };
+		B03B6C801E2777CD00D279B8 /* NIPUtilsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BB31E2777CD00D279B8 /* NIPUtilsFactory.m */; };
+		B03B6C811E2777CD00D279B8 /* NIPUrlControllerRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BBA1E2777CD00D279B8 /* NIPUrlControllerRouter.m */; };
+		B03B6C821E2777CD00D279B8 /* NIPAppTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BBD1E2777CD00D279B8 /* NIPAppTabBarController.m */; };
+		B03B6C831E2777CD00D279B8 /* NIPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BBF1E2777CD00D279B8 /* NIPBaseViewController.m */; };
+		B03B6C841E2777CD00D279B8 /* NIPContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BC11E2777CD00D279B8 /* NIPContainerViewController.m */; };
+		B03B6C851E2777CD00D279B8 /* NIPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BC31E2777CD00D279B8 /* NIPNavigationController.m */; };
+		B03B6C861E2777CD00D279B8 /* NIPSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BC51E2777CD00D279B8 /* NIPSlideViewController.m */; };
+		B03B6C871E2777CD00D279B8 /* NIPIntrospector.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BC81E2777CD00D279B8 /* NIPIntrospector.m */; };
+		B03B6C881E2777CD00D279B8 /* NIPHttpRequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BCE1E2777CD00D279B8 /* NIPHttpRequestService.m */; };
+		B03B6C891E2777CD00D279B8 /* NIPHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BD01E2777CD00D279B8 /* NIPHTTPSessionManager.m */; };
+		B03B6C8A1E2777CD00D279B8 /* NIPHttpsValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BD21E2777CD00D279B8 /* NIPHttpsValidator.m */; };
+		B03B6C8B1E2777CD00D279B8 /* NIPBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BD61E2777CD00D279B8 /* NIPBaseRequest.m */; };
+		B03B6C8D1E2777CD00D279B8 /* NIPCoderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BDB1E2777CD00D279B8 /* NIPCoderUtil.m */; };
+		B03B6C8E1E2777CD00D279B8 /* NIPHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BDD1E2777CD00D279B8 /* NIPHttpResponse.m */; };
+		B03B6C8F1E2777CD00D279B8 /* NIPJSONHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BDF1E2777CD00D279B8 /* NIPJSONHttpResponse.m */; };
+		B03B6C901E2777CD00D279B8 /* NIPModelHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BE11E2777CD00D279B8 /* NIPModelHttpResponse.m */; };
+		B03B6C931E2777CD00D279B8 /* UIColor+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BED1E2777CD00D279B8 /* UIColor+NIPBasicAdditions.m */; };
+		B03B6C941E2777CD00D279B8 /* UIImage+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BEF1E2777CD00D279B8 /* UIImage+NIPBasicAdditions.m */; };
+		B03B6C951E2777CD00D279B8 /* UILabel+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BF11E2777CD00D279B8 /* UILabel+NIPBasicAdditions.m */; };
+		B03B6C961E2777CD00D279B8 /* UIResponder+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BF31E2777CD00D279B8 /* UIResponder+NIPBasicAdditions.m */; };
+		B03B6C971E2777CD00D279B8 /* UIView+NIPBasicAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BF51E2777CD00D279B8 /* UIView+NIPBasicAdditions.m */; };
+		B03B6C981E2777CD00D279B8 /* NIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BF91E2777CD00D279B8 /* NIPActionSheet.m */; };
+		B03B6C991E2777CD00D279B8 /* NIPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BFB1E2777CD00D279B8 /* NIPAlertView.m */; };
+		B03B6C9A1E2777CD00D279B8 /* NIPCustomAlertBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BFD1E2777CD00D279B8 /* NIPCustomAlertBase.m */; };
+		B03B6C9B1E2777CD00D279B8 /* NIPScreenTipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6BFF1E2777CD00D279B8 /* NIPScreenTipWindow.m */; };
+		B03B6C9C1E2777CD00D279B8 /* NIPScrollContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C031E2777CD00D279B8 /* NIPScrollContainer.m */; };
+		B03B6C9D1E2777CD00D279B8 /* NIPTableContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C051E2777CD00D279B8 /* NIPTableContainerView.m */; };
+		B03B6C9E1E2777CD00D279B8 /* NIPGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C091E2777CD00D279B8 /* NIPGridLayout.m */; };
+		B03B6C9F1E2777CD00D279B8 /* NIPHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C0B1E2777CD00D279B8 /* NIPHorizontalLayout.m */; };
+		B03B6CA01E2777CD00D279B8 /* NIPLayoutBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C0E1E2777CD00D279B8 /* NIPLayoutBase.m */; };
+		B03B6CA11E2777CD00D279B8 /* NIPVerticalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C101E2777CD00D279B8 /* NIPVerticalLayout.m */; };
+		B03B6CA21E2777CD00D279B8 /* NIPopupBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C141E2777CD00D279B8 /* NIPopupBase.m */; };
+		B03B6CA31E2777CD00D279B8 /* NIPopupMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C161E2777CD00D279B8 /* NIPopupMaskView.m */; };
+		B03B6CA41E2777CD00D279B8 /* NIPopupToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C181E2777CD00D279B8 /* NIPopupToastView.m */; };
+		B03B6CA51E2777CD00D279B8 /* NIPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C1A1E2777CD00D279B8 /* NIPopupView.m */; };
+		B03B6CA61E2777CD00D279B8 /* nip_ui_geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C1D1E2777CD00D279B8 /* nip_ui_geometry.m */; };
+		B03B6CA71E2777CD00D279B8 /* NIPInputViewTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C201E2777CD00D279B8 /* NIPInputViewTranslator.m */; };
+		B03B6CA81E2777CD00D279B8 /* NIPActivityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C241E2777CD00D279B8 /* NIPActivityButton.m */; };
+		B03B6CA91E2777CD00D279B8 /* NIPActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C261E2777CD00D279B8 /* NIPActivityIndicator.m */; };
+		B03B6CAA1E2777CD00D279B8 /* NIPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C281E2777CD00D279B8 /* NIPageScrollView.m */; };
+		B03B6CAB1E2777CD00D279B8 /* NIPCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C2A1E2777CD00D279B8 /* NIPCheckBoxView.m */; };
+		B03B6CAC1E2777CD00D279B8 /* NIPControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C2C1E2777CD00D279B8 /* NIPControl.m */; };
+		B03B6CAD1E2777CD00D279B8 /* NIPDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C2E1E2777CD00D279B8 /* NIPDatePicker.m */; };
+		B03B6CAE1E2777CD00D279B8 /* NIPIconTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C301E2777CD00D279B8 /* NIPIconTextView.m */; };
+		B03B6CAF1E2777CD00D279B8 /* NIPKeyValueLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C321E2777CD00D279B8 /* NIPKeyValueLabel.m */; };
+		B03B6CB01E2777CD00D279B8 /* NIPLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C341E2777CD00D279B8 /* NIPLabelView.m */; };
+		B03B6CB11E2777CD00D279B8 /* NIPLayoutLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C361E2777CD00D279B8 /* NIPLayoutLabel.m */; };
+		B03B6CB21E2777CD00D279B8 /* NIPointIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C381E2777CD00D279B8 /* NIPointIndicator.m */; };
+		B03B6CB31E2777CD00D279B8 /* NIPPlaceholderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C3A1E2777CD00D279B8 /* NIPPlaceholderLabel.m */; };
+		B03B6CB41E2777CD00D279B8 /* NIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C3C1E2777CD00D279B8 /* NIProgressView.m */; };
+		B03B6CB51E2777CD00D279B8 /* NIPScreenTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C3E1E2777CD00D279B8 /* NIPScreenTipView.m */; };
+		B03B6CB61E2777CD00D279B8 /* NIPSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C401E2777CD00D279B8 /* NIPSegmentView.m */; };
+		B03B6CB71E2777CD00D279B8 /* NIPSeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C421E2777CD00D279B8 /* NIPSeparatorView.m */; };
+		B03B6CB81E2777CD00D279B8 /* NIPSortSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C441E2777CD00D279B8 /* NIPSortSegmentView.m */; };
+		B03B6CB91E2777CD00D279B8 /* NIPStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C461E2777CD00D279B8 /* NIPStateButton.m */; };
+		B03B6CBA1E2777CD00D279B8 /* NIPStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C481E2777CD00D279B8 /* NIPStatusBar.m */; };
+		B03B6CBB1E2777CD00D279B8 /* NIPSwipeOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C4A1E2777CD00D279B8 /* NIPSwipeOptionView.m */; };
+		B03B6CBC1E2777CD00D279B8 /* NIPSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C4C1E2777CD00D279B8 /* NIPSwitchView.m */; };
+		B03B6CBD1E2777CD00D279B8 /* NIPTextActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C4E1E2777CD00D279B8 /* NIPTextActivityIndicator.m */; };
+		B03B6CBE1E2777CD00D279B8 /* NIPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C501E2777CD00D279B8 /* NIPTextField.m */; };
+		B03B6CBF1E2777CD00D279B8 /* NIPTextFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C521E2777CD00D279B8 /* NIPTextFormView.m */; };
+		B03B6CC01E2777CD00D279B8 /* NIPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C541E2777CD00D279B8 /* NIPTextView.m */; };
+		B03B6CC11E2777CD00D279B8 /* NIPTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C561E2777CD00D279B8 /* NIPTimePicker.m */; };
+		B03B6CC21E2777CD00D279B8 /* NIPView.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C581E2777CD00D279B8 /* NIPView.m */; };
+		B03B6CC31E2777CD00D279B8 /* NIPUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B03B6C5B1E2777CD00D279B8 /* NIPUIFactory.m */; };
+		B03B6CC41E2777CD00D279B8 /* nip_black_back_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B03B6C5D1E2777CD00D279B8 /* nip_black_back_btn@2x.png */; };
+		B03B6CC51E2777CD00D279B8 /* nip_navigationBar_bgImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B03B6C5E1E2777CD00D279B8 /* nip_navigationBar_bgImage@2x.png */; };
+		B03B6CC61E2777CD00D279B8 /* nip_white_back_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B03B6C5F1E2777CD00D279B8 /* nip_white_back_btn@2x.png */; };
+		B049C00B1FD6A732008C97FC /* NIPBase64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = B049C0091FD6A730008C97FC /* NIPBase64Transcoder.c */; };
+		B049C0181FD7ECC9008C97FC /* NIPIconFontService.m in Sources */ = {isa = PBXBuildFile; fileRef = B049C0171FD7ECC8008C97FC /* NIPIconFontService.m */; };
+		B051AEE31DF80049003944A9 /* NIPMyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B051AEE21DF80049003944A9 /* NIPMyBaseViewController.m */; };
+		B051AEF01DF80FBD003944A9 /* UIViewController+TopMostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B051AEEF1DF80FBD003944A9 /* UIViewController+TopMostViewController.m */; };
+		B05D0CAC1DE3F36800495172 /* NIPCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B05D0CAB1DE3F36800495172 /* NIPCommonUtil.m */; };
+		B05F24341E779396004D59B3 /* NIPEdgeInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B05F24331E779396004D59B3 /* NIPEdgeInsetsLabel.m */; };
+		B05F24861E7A3F37004D59B3 /* NIPURLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B05F24851E7A3F37004D59B3 /* NIPURLHandler.m */; };
+		B08C98BB1DF93C580064B4F2 /* NIPUrlFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B08C98BA1DF93C580064B4F2 /* NIPUrlFactory.m */; };
+		B0B7F8691E02369000E65AA9 /* NIPImageFactoryChild.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B7F8681E02369000E65AA9 /* NIPImageFactoryChild.m */; };
+		B0B7F86A1E0236B900E65AA9 /* NIPUIFactoryChild.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B7F8651E0235E200E65AA9 /* NIPUIFactoryChild.m */; };
+		B0CA9CDB1E01773F001B8F09 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CA9CDA1E01773F001B8F09 /* AudioToolbox.framework */; };
+		DC731D221F2A0F24001885E6 /* NIPNotificationSettingManger.m in Sources */ = {isa = PBXBuildFile; fileRef = DC731D211F2A0F24001885E6 /* NIPNotificationSettingManger.m */; };
+		DC9398A91EB0C1E90077D5F8 /* NIPKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9398A81EB0C1E90077D5F8 /* NIPKeyboardManager.m */; };
+		DC9398AC1EB0C22D0077D5F8 /* NIPFingerRecognizerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9398AB1EB0C22D0077D5F8 /* NIPFingerRecognizerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07ADB6AE1D93CE1300766E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07ADB68C1D93CE1300766E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07ADB6931D93CE1300766E57;
+			remoteInfo = NSIP;
+		};
+		07ADB6B91D93CE1300766E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07ADB68C1D93CE1300766E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07ADB6931D93CE1300766E57;
+			remoteInfo = NSIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070A29871DB5CA3300BA1B64 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		071E0B661DC9C75D00AC8F38 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		071E0B681DC9C77E00AC8F38 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		071E0B6A1DC9C78C00AC8F38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		071E0B6C1DC9C7A700AC8F38 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		071E0B6E1DC9C7B000AC8F38 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		07245AD91E0B733200C8F641 /* NIPVersionUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIPVersionUpdater.h; path = NSIP/common/service/data/NIPVersionUpdater.h; sourceTree = SOURCE_ROOT; };
+		07245ADA1E0B733200C8F641 /* NIPVersionUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIPVersionUpdater.m; path = NSIP/common/service/data/NIPVersionUpdater.m; sourceTree = SOURCE_ROOT; };
+		07245AEF1E0B750900C8F641 /* NIPLoginSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPLoginSession.h; sourceTree = "<group>"; };
+		07245AF01E0B750900C8F641 /* NIPLoginSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPLoginSession.m; sourceTree = "<group>"; };
+		0732F3941E139E6200A74C01 /* NIPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPHomeViewController.h; sourceTree = "<group>"; };
+		0732F3951E139E6200A74C01 /* NIPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPHomeViewController.m; sourceTree = "<group>"; };
+		0732F3A51E139F2F00A74C01 /* NIPWatchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPWatchItem.h; sourceTree = "<group>"; };
+		0732F3A61E139F2F00A74C01 /* NIPWatchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPWatchItem.m; sourceTree = "<group>"; };
+		0732F3A81E139F2F00A74C01 /* NIPPartnerGoodsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPPartnerGoodsResponse.h; sourceTree = "<group>"; };
+		0732F3A91E139F2F00A74C01 /* NIPPartnerGoodsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPPartnerGoodsResponse.m; sourceTree = "<group>"; };
+		0732F3AA1E139F2F00A74C01 /* NIPBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPBaseResponse.h; sourceTree = "<group>"; };
+		0732F3AB1E139F2F00A74C01 /* NIPBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPBaseResponse.m; sourceTree = "<group>"; };
+		0732F3AE1E139F2F00A74C01 /* NIPProductService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPProductService.h; sourceTree = "<group>"; };
+		0732F3AF1E139F2F00A74C01 /* NIPProductService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPProductService.m; sourceTree = "<group>"; };
+		0732F3B01E139F2F00A74C01 /* NIPBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPBaseService.h; sourceTree = "<group>"; };
+		0732F3B11E139F2F00A74C01 /* NIPBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPBaseService.m; sourceTree = "<group>"; };
+		0732F3B81E139FDD00A74C01 /* NIPAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPAlbumCell.h; sourceTree = "<group>"; };
+		0732F3B91E139FDD00A74C01 /* NIPAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPAlbumCell.m; sourceTree = "<group>"; };
+		0732F3BA1E139FDD00A74C01 /* NIPAlbumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPAlbumInfo.h; sourceTree = "<group>"; };
+		0732F3BB1E139FDD00A74C01 /* NIPAlbumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPAlbumInfo.m; sourceTree = "<group>"; };
+		0732F3BC1E139FDD00A74C01 /* NIPAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPAlbumListViewController.h; sourceTree = "<group>"; };
+		0732F3BD1E139FDD00A74C01 /* NIPAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPAlbumListViewController.m; sourceTree = "<group>"; };
+		0732F3BE1E139FDD00A74C01 /* NIPAlbumToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPAlbumToolbarView.h; sourceTree = "<group>"; };
+		0732F3BF1E139FDD00A74C01 /* NIPAlbumToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPAlbumToolbarView.m; sourceTree = "<group>"; };
+		0732F3C01E139FDD00A74C01 /* NIPNumblerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPNumblerLabel.h; sourceTree = "<group>"; };
+		0732F3C11E139FDD00A74C01 /* NIPNumblerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPNumblerLabel.m; sourceTree = "<group>"; };
+		0732F3C21E139FDD00A74C01 /* NIPPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPPhotoCell.h; sourceTree = "<group>"; };
+		0732F3C31E139FDD00A74C01 /* NIPPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPPhotoCell.m; sourceTree = "<group>"; };
+		0732F3C41E139FDD00A74C01 /* NIPPhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPPhotoPreviewViewController.h; sourceTree = "<group>"; };
+		0732F3C51E139FDD00A74C01 /* NIPPhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPPhotoPreviewViewController.m; sourceTree = "<group>"; };
+		0732F3C61E139FDD00A74C01 /* NIPPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPPhotosViewController.h; sourceTree = "<group>"; };
+		0732F3C71E139FDD00A74C01 /* NIPPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPPhotosViewController.m; sourceTree = "<group>"; };
+		074BE9C11DB0AD8000AEAFAC /* NIPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPWebViewController.h; sourceTree = "<group>"; };
+		074BE9C21DB0AD8000AEAFAC /* NIPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPWebViewController.m; sourceTree = "<group>"; };
+		074BE9C81DB0BF1D00AEAFAC /* NIPWebNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPWebNavigationController.h; sourceTree = "<group>"; };
+		074BE9C91DB0BF1D00AEAFAC /* NIPWebNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPWebNavigationController.m; sourceTree = "<group>"; };
+		074BE9CB1DB0C7DE00AEAFAC /* NIPWebToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPWebToolBar.h; sourceTree = "<group>"; };
+		074BE9CC1DB0C7DE00AEAFAC /* NIPWebToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPWebToolBar.m; sourceTree = "<group>"; };
+		0762B7371EFA501F004A2D61 /* NIPTestPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPTestPageViewController.h; sourceTree = "<group>"; };
+		0762B7381EFA501F004A2D61 /* NIPTestPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPTestPageViewController.m; sourceTree = "<group>"; };
+		0762B73C1EFA5040004A2D61 /* NIPUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPUserViewController.h; sourceTree = "<group>"; };
+		0762B73D1EFA5040004A2D61 /* NIPUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPUserViewController.m; sourceTree = "<group>"; };
+		07ADB6941D93CE1300766E57 /* NSIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07ADB6981D93CE1300766E57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07ADB69A1D93CE1300766E57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07ADB69B1D93CE1300766E57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07ADB6A31D93CE1300766E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07ADB6A61D93CE1300766E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07ADB6A81D93CE1300766E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ADB6AD1D93CE1300766E57 /* NSIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07ADB6B11D93CE1300766E57 /* NSIPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSIPTests.m; sourceTree = "<group>"; };
+		07ADB6B31D93CE1300766E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ADB6B81D93CE1300766E57 /* NSIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07ADB6BC1D93CE1300766E57 /* NSIPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSIPUITests.m; sourceTree = "<group>"; };
+		07ADB6BE1D93CE1300766E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ADB6CB1D93D36A00766E57 /* NIPDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPDefine.h; sourceTree = "<group>"; };
+		07ADB6D11D93DA7700766E57 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		07ADB6D91D95259F00766E57 /* NIPURLHandler+ComponentsDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIPURLHandler+ComponentsDemo.h"; sourceTree = "<group>"; };
+		07ADB6DA1D95259F00766E57 /* NIPURLHandler+ComponentsDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NIPURLHandler+ComponentsDemo.m"; sourceTree = "<group>"; };
+		07ADB6E31D952CCF00766E57 /* NIPURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPURLRouter.h; sourceTree = "<group>"; };
+		07ADB6E41D952CCF00766E57 /* NIPURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPURLRouter.m; sourceTree = "<group>"; };
+		07ADB6EB1D95323D00766E57 /* NIPConfigFileUpdateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPConfigFileUpdateService.h; sourceTree = "<group>"; };
+		07ADB6EC1D95323D00766E57 /* NIPConfigFileUpdateService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPConfigFileUpdateService.m; sourceTree = "<group>"; };
+		07ADB6EE1D953A8900766E57 /* NIPreciousLocalSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPreciousLocalSettings.h; sourceTree = "<group>"; };
+		07ADB6EF1D953A8900766E57 /* NIPreciousLocalSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPreciousLocalSettings.m; sourceTree = "<group>"; };
+		07ADB6F51D955BD000766E57 /* NSIPPageURLsDataset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSIPPageURLsDataset.h; sourceTree = "<group>"; };
+		07ADB6F61D955BD000766E57 /* NSIPPageURLsDataset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSIPPageURLsDataset.m; sourceTree = "<group>"; };
+		07ADB6F91D955F5C00766E57 /* PageURLsInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PageURLsInfo.json; sourceTree = "<group>"; };
+		276B6E3724F8899381D52DB4 /* Pods-NSIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSIP.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSIP/Pods-NSIP.release.xcconfig"; sourceTree = "<group>"; };
+		359A65E232F06B1710E0F8A1 /* Pods-NSIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSIP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSIP/Pods-NSIP.debug.xcconfig"; sourceTree = "<group>"; };
+		6975D1A4FC91C625D64A6F1F /* libPods-NSIP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSIP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF44B74F1E9DC35C00484305 /* UIImage+NIPLoadBundleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NIPLoadBundleImage.h"; sourceTree = "<group>"; };
+		AF44B7501E9DC35C00484305 /* UIImage+NIPLoadBundleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NIPLoadBundleImage.m"; sourceTree = "<group>"; };
+		AFE5D0431FE9159600D7E3A4 /* SeparationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeparationHeader.h; sourceTree = "<group>"; };
+		B002E5CD1E2767B5006D5CB8 /* NSData+URS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+URS.h"; sourceTree = "<group>"; };
+		B002E5CE1E2767B5006D5CB8 /* NSData+URS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+URS.m"; sourceTree = "<group>"; };
+		B002E5CF1E2767B5006D5CB8 /* NSString+URS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URS.h"; sourceTree = "<group>"; };
+		B002E5D01E2767B5006D5CB8 /* NSString+URS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URS.m"; sourceTree = "<group>"; };
+		B002E5D11E2767B5006D5CB8 /* UIDevice+URS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+URS.h"; sourceTree = "<group>"; };
+		B002E5D21E2767B5006D5CB8 /* UIDevice+URS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+URS.m"; sourceTree = "<group>"; };
+		B002E5D31E2767B5006D5CB8 /* URSARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URSARC.h; sourceTree = "<group>"; };
+		B002E5D41E2767B5006D5CB8 /* URSAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URSAuth.h; sourceTree = "<group>"; };
+		B002E5D51E2767B5006D5CB8 /* URSAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URSAuth.m; sourceTree = "<group>"; };
+		B002E5D61E2767B5006D5CB8 /* URSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URSRequest.h; sourceTree = "<group>"; };
+		B002E5D71E2767B5006D5CB8 /* URSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URSRequest.m; sourceTree = "<group>"; };
+		B03B6B6C1E2777CD00D279B8 /* nip_basic_additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_basic_additions.h; sourceTree = "<group>"; };
+		B03B6B6D1E2777CD00D279B8 /* NSArray+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6B6E1E2777CD00D279B8 /* NSArray+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6B6F1E2777CD00D279B8 /* NSData+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6B701E2777CD00D279B8 /* NSData+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6B711E2777CD00D279B8 /* NSDate+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6B721E2777CD00D279B8 /* NSDate+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6B731E2777CD00D279B8 /* NSDateFormatter+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6B741E2777CD00D279B8 /* NSDateFormatter+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6B751E2777CD00D279B8 /* NSDictionary+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6B761E2777CD00D279B8 /* NSDictionary+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6B771E2777CD00D279B8 /* NSString+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6B781E2777CD00D279B8 /* NSString+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6B791E2777CD00D279B8 /* NSURL+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6B7A1E2777CD00D279B8 /* NSURL+NTBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NTBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6B7B1E2777CD00D279B8 /* UIDevice+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6B7C1E2777CD00D279B8 /* UIDevice+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6B7D1E2777CD00D279B8 /* UILocalNotification+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILocalNotification+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6B7E1E2777CD00D279B8 /* UILocalNotification+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILocalNotification+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6B801E2777CD00D279B8 /* nip_basic_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_basic_utils.h; sourceTree = "<group>"; };
+		B03B6B831E2777CD00D279B8 /* nip_pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_pinyin.h; sourceTree = "<group>"; };
+		B03B6B841E2777CD00D279B8 /* NIPChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPChineseToPinyinResource.h; sourceTree = "<group>"; };
+		B03B6B851E2777CD00D279B8 /* NIPChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPChineseToPinyinResource.m; sourceTree = "<group>"; };
+		B03B6B861E2777CD00D279B8 /* NIPHanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPHanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		B03B6B871E2777CD00D279B8 /* NIPHanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPHanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		B03B6B881E2777CD00D279B8 /* NIPinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPinyinFormatter.h; sourceTree = "<group>"; };
+		B03B6B891E2777CD00D279B8 /* NIPinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPinyinFormatter.m; sourceTree = "<group>"; };
+		B03B6B8A1E2777CD00D279B8 /* NIPinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPinyinHelper.h; sourceTree = "<group>"; };
+		B03B6B8B1E2777CD00D279B8 /* NIPinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPinyinHelper.m; sourceTree = "<group>"; };
+		B03B6B8C1E2777CD00D279B8 /* NIPPinYinUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPPinYinUtil.h; sourceTree = "<group>"; };
+		B03B6B8D1E2777CD00D279B8 /* NIPPinYinUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPPinYinUtil.m; sourceTree = "<group>"; };
+		B03B6B8E1E2777CD00D279B8 /* NSString+NIPPinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NIPPinYin4Cocoa.h"; sourceTree = "<group>"; };
+		B03B6B8F1E2777CD00D279B8 /* NSString+NIPPinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NIPPinYin4Cocoa.m"; sourceTree = "<group>"; };
+		B03B6B911E2777CD00D279B8 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		B03B6B921E2777CD00D279B8 /* NIPAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPAction.h; sourceTree = "<group>"; };
+		B03B6B931E2777CD00D279B8 /* NIPAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPAction.m; sourceTree = "<group>"; };
+		B03B6B941E2777CD00D279B8 /* NIPagedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPagedArray.h; sourceTree = "<group>"; };
+		B03B6B951E2777CD00D279B8 /* NIPagedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPagedArray.m; sourceTree = "<group>"; };
+		B03B6B981E2777CD00D279B8 /* NIPCocoaSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPCocoaSecurity.h; sourceTree = "<group>"; };
+		B03B6B991E2777CD00D279B8 /* NIPCocoaSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPCocoaSecurity.m; sourceTree = "<group>"; };
+		B03B6B9A1E2777CD00D279B8 /* NIPFileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPFileService.h; sourceTree = "<group>"; };
+		B03B6B9B1E2777CD00D279B8 /* NIPFileService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPFileService.m; sourceTree = "<group>"; };
+		B03B6B9C1E2777CD00D279B8 /* NIPImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPImageFactory.h; sourceTree = "<group>"; };
+		B03B6B9D1E2777CD00D279B8 /* NIPImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPImageFactory.m; sourceTree = "<group>"; };
+		B03B6B9E1E2777CD00D279B8 /* NIPKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPKeychain.h; sourceTree = "<group>"; };
+		B03B6B9F1E2777CD00D279B8 /* NIPKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPKeychain.m; sourceTree = "<group>"; };
+		B03B6BA01E2777CD00D279B8 /* NIPKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPKeyValue.h; sourceTree = "<group>"; };
+		B03B6BA11E2777CD00D279B8 /* NIPKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPKeyValue.m; sourceTree = "<group>"; };
+		B03B6BA21E2777CD00D279B8 /* NIPLocalCacheBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPLocalCacheBase.h; sourceTree = "<group>"; };
+		B03B6BA31E2777CD00D279B8 /* NIPLocalCacheBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPLocalCacheBase.m; sourceTree = "<group>"; };
+		B03B6BA41E2777CD00D279B8 /* NIPLocalSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPLocalSettings.h; sourceTree = "<group>"; };
+		B03B6BA51E2777CD00D279B8 /* NIPLocalSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPLocalSettings.m; sourceTree = "<group>"; };
+		B03B6BA61E2777CD00D279B8 /* NIPNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPNotificationManager.h; sourceTree = "<group>"; };
+		B03B6BA71E2777CD00D279B8 /* NIPNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPNotificationManager.m; sourceTree = "<group>"; };
+		B03B6BA81E2777CD00D279B8 /* NIPQueuedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPQueuedTask.h; sourceTree = "<group>"; };
+		B03B6BA91E2777CD00D279B8 /* NIPQueuedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPQueuedTask.m; sourceTree = "<group>"; };
+		B03B6BAA1E2777CD00D279B8 /* NIPSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPSectionModel.h; sourceTree = "<group>"; };
+		B03B6BAB1E2777CD00D279B8 /* NIPSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPSectionModel.m; sourceTree = "<group>"; };
+		B03B6BAC1E2777CD00D279B8 /* NIPSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPSoundManager.h; sourceTree = "<group>"; };
+		B03B6BAD1E2777CD00D279B8 /* NIPSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPSoundManager.m; sourceTree = "<group>"; };
+		B03B6BAE1E2777CD00D279B8 /* NIPTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPTaskQueue.h; sourceTree = "<group>"; };
+		B03B6BAF1E2777CD00D279B8 /* NIPTaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPTaskQueue.m; sourceTree = "<group>"; };
+		B03B6BB01E2777CD00D279B8 /* NIPTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPTimer.h; sourceTree = "<group>"; };
+		B03B6BB11E2777CD00D279B8 /* NIPTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPTimer.m; sourceTree = "<group>"; };
+		B03B6BB21E2777CD00D279B8 /* NIPUtilsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPUtilsFactory.h; sourceTree = "<group>"; };
+		B03B6BB31E2777CD00D279B8 /* NIPUtilsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPUtilsFactory.m; sourceTree = "<group>"; };
+		B03B6BB41E2777CD00D279B8 /* nip_common_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_common_lib.h; sourceTree = "<group>"; };
+		B03B6BB61E2777CD00D279B8 /* nip_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_controller.h; sourceTree = "<group>"; };
+		B03B6BB81E2777CD00D279B8 /* NIPUrlControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPUrlControllerProtocol.h; sourceTree = "<group>"; };
+		B03B6BB91E2777CD00D279B8 /* NIPUrlControllerRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPUrlControllerRouter.h; sourceTree = "<group>"; };
+		B03B6BBA1E2777CD00D279B8 /* NIPUrlControllerRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPUrlControllerRouter.m; sourceTree = "<group>"; };
+		B03B6BBC1E2777CD00D279B8 /* NIPAppTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPAppTabBarController.h; sourceTree = "<group>"; };
+		B03B6BBD1E2777CD00D279B8 /* NIPAppTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPAppTabBarController.m; sourceTree = "<group>"; };
+		B03B6BBE1E2777CD00D279B8 /* NIPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPBaseViewController.h; sourceTree = "<group>"; };
+		B03B6BBF1E2777CD00D279B8 /* NIPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPBaseViewController.m; sourceTree = "<group>"; };
+		B03B6BC01E2777CD00D279B8 /* NIPContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPContainerViewController.h; sourceTree = "<group>"; };
+		B03B6BC11E2777CD00D279B8 /* NIPContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPContainerViewController.m; sourceTree = "<group>"; };
+		B03B6BC21E2777CD00D279B8 /* NIPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPNavigationController.h; sourceTree = "<group>"; };
+		B03B6BC31E2777CD00D279B8 /* NIPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPNavigationController.m; sourceTree = "<group>"; };
+		B03B6BC41E2777CD00D279B8 /* NIPSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPSlideViewController.h; sourceTree = "<group>"; };
+		B03B6BC51E2777CD00D279B8 /* NIPSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPSlideViewController.m; sourceTree = "<group>"; };
+		B03B6BC71E2777CD00D279B8 /* NIPIntrospector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPIntrospector.h; sourceTree = "<group>"; };
+		B03B6BC81E2777CD00D279B8 /* NIPIntrospector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPIntrospector.m; sourceTree = "<group>"; };
+		B03B6BCA1E2777CD00D279B8 /* nip_macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_macros.h; sourceTree = "<group>"; };
+		B03B6BCD1E2777CD00D279B8 /* NIPHttpRequestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPHttpRequestService.h; sourceTree = "<group>"; };
+		B03B6BCE1E2777CD00D279B8 /* NIPHttpRequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPHttpRequestService.m; sourceTree = "<group>"; };
+		B03B6BCF1E2777CD00D279B8 /* NIPHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPHTTPSessionManager.h; sourceTree = "<group>"; };
+		B03B6BD01E2777CD00D279B8 /* NIPHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPHTTPSessionManager.m; sourceTree = "<group>"; };
+		B03B6BD11E2777CD00D279B8 /* NIPHttpsValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPHttpsValidator.h; sourceTree = "<group>"; };
+		B03B6BD21E2777CD00D279B8 /* NIPHttpsValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPHttpsValidator.m; sourceTree = "<group>"; };
+		B03B6BD31E2777CD00D279B8 /* nip_network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_network.h; sourceTree = "<group>"; };
+		B03B6BD51E2777CD00D279B8 /* NIPBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPBaseRequest.h; sourceTree = "<group>"; };
+		B03B6BD61E2777CD00D279B8 /* NIPBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPBaseRequest.m; sourceTree = "<group>"; };
+		B03B6BDA1E2777CD00D279B8 /* NIPCoderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPCoderUtil.h; sourceTree = "<group>"; };
+		B03B6BDB1E2777CD00D279B8 /* NIPCoderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPCoderUtil.m; sourceTree = "<group>"; };
+		B03B6BDC1E2777CD00D279B8 /* NIPHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPHttpResponse.h; sourceTree = "<group>"; };
+		B03B6BDD1E2777CD00D279B8 /* NIPHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPHttpResponse.m; sourceTree = "<group>"; };
+		B03B6BDE1E2777CD00D279B8 /* NIPJSONHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPJSONHttpResponse.h; sourceTree = "<group>"; };
+		B03B6BDF1E2777CD00D279B8 /* NIPJSONHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPJSONHttpResponse.m; sourceTree = "<group>"; };
+		B03B6BE01E2777CD00D279B8 /* NIPModelHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPModelHttpResponse.h; sourceTree = "<group>"; };
+		B03B6BE11E2777CD00D279B8 /* NIPModelHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPModelHttpResponse.m; sourceTree = "<group>"; };
+		B03B6BE21E2777CD00D279B8 /* NIPModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPModelObject.h; sourceTree = "<group>"; };
+		B03B6BE91E2777CD00D279B8 /* nip_ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_ui.h; sourceTree = "<group>"; };
+		B03B6BEB1E2777CD00D279B8 /* nip_ui_additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_ui_additions.h; sourceTree = "<group>"; };
+		B03B6BEC1E2777CD00D279B8 /* UIColor+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6BED1E2777CD00D279B8 /* UIColor+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6BEE1E2777CD00D279B8 /* UIImage+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6BEF1E2777CD00D279B8 /* UIImage+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6BF01E2777CD00D279B8 /* UILabel+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6BF11E2777CD00D279B8 /* UILabel+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6BF21E2777CD00D279B8 /* UIResponder+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6BF31E2777CD00D279B8 /* UIResponder+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6BF41E2777CD00D279B8 /* UIView+NIPBasicAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NIPBasicAdditions.h"; sourceTree = "<group>"; };
+		B03B6BF51E2777CD00D279B8 /* UIView+NIPBasicAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NIPBasicAdditions.m"; sourceTree = "<group>"; };
+		B03B6BF71E2777CD00D279B8 /* nip_ui_alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_ui_alert.h; sourceTree = "<group>"; };
+		B03B6BF81E2777CD00D279B8 /* NIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPActionSheet.h; sourceTree = "<group>"; };
+		B03B6BF91E2777CD00D279B8 /* NIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPActionSheet.m; sourceTree = "<group>"; };
+		B03B6BFA1E2777CD00D279B8 /* NIPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPAlertView.h; sourceTree = "<group>"; };
+		B03B6BFB1E2777CD00D279B8 /* NIPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPAlertView.m; sourceTree = "<group>"; };
+		B03B6BFC1E2777CD00D279B8 /* NIPCustomAlertBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPCustomAlertBase.h; sourceTree = "<group>"; };
+		B03B6BFD1E2777CD00D279B8 /* NIPCustomAlertBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPCustomAlertBase.m; sourceTree = "<group>"; };
+		B03B6BFE1E2777CD00D279B8 /* NIPScreenTipWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPScreenTipWindow.h; sourceTree = "<group>"; };
+		B03B6BFF1E2777CD00D279B8 /* NIPScreenTipWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPScreenTipWindow.m; sourceTree = "<group>"; };
+		B03B6C011E2777CD00D279B8 /* nip_ui_container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_ui_container.h; sourceTree = "<group>"; };
+		B03B6C021E2777CD00D279B8 /* NIPScrollContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPScrollContainer.h; sourceTree = "<group>"; };
+		B03B6C031E2777CD00D279B8 /* NIPScrollContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPScrollContainer.m; sourceTree = "<group>"; };
+		B03B6C041E2777CD00D279B8 /* NIPTableContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPTableContainerView.h; sourceTree = "<group>"; };
+		B03B6C051E2777CD00D279B8 /* NIPTableContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPTableContainerView.m; sourceTree = "<group>"; };
+		B03B6C071E2777CD00D279B8 /* nip_ui_layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_ui_layout.h; sourceTree = "<group>"; };
+		B03B6C081E2777CD00D279B8 /* NIPGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPGridLayout.h; sourceTree = "<group>"; };
+		B03B6C091E2777CD00D279B8 /* NIPGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPGridLayout.m; sourceTree = "<group>"; };
+		B03B6C0A1E2777CD00D279B8 /* NIPHorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPHorizontalLayout.h; sourceTree = "<group>"; };
+		B03B6C0B1E2777CD00D279B8 /* NIPHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPHorizontalLayout.m; sourceTree = "<group>"; };
+		B03B6C0C1E2777CD00D279B8 /* NIPLayoutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPLayoutable.h; sourceTree = "<group>"; };
+		B03B6C0D1E2777CD00D279B8 /* NIPLayoutBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPLayoutBase.h; sourceTree = "<group>"; };
+		B03B6C0E1E2777CD00D279B8 /* NIPLayoutBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPLayoutBase.m; sourceTree = "<group>"; };
+		B03B6C0F1E2777CD00D279B8 /* NIPVerticalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPVerticalLayout.h; sourceTree = "<group>"; };
+		B03B6C101E2777CD00D279B8 /* NIPVerticalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPVerticalLayout.m; sourceTree = "<group>"; };
+		B03B6C121E2777CD00D279B8 /* nip_ui_popup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_ui_popup.h; sourceTree = "<group>"; };
+		B03B6C131E2777CD00D279B8 /* NIPopupBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPopupBase.h; sourceTree = "<group>"; };
+		B03B6C141E2777CD00D279B8 /* NIPopupBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPopupBase.m; sourceTree = "<group>"; };
+		B03B6C151E2777CD00D279B8 /* NIPopupMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPopupMaskView.h; sourceTree = "<group>"; };
+		B03B6C161E2777CD00D279B8 /* NIPopupMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPopupMaskView.m; sourceTree = "<group>"; };
+		B03B6C171E2777CD00D279B8 /* NIPopupToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPopupToastView.h; sourceTree = "<group>"; };
+		B03B6C181E2777CD00D279B8 /* NIPopupToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPopupToastView.m; sourceTree = "<group>"; };
+		B03B6C191E2777CD00D279B8 /* NIPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPopupView.h; sourceTree = "<group>"; };
+		B03B6C1A1E2777CD00D279B8 /* NIPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPopupView.m; sourceTree = "<group>"; };
+		B03B6C1C1E2777CD00D279B8 /* nip_ui_geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_ui_geometry.h; sourceTree = "<group>"; };
+		B03B6C1D1E2777CD00D279B8 /* nip_ui_geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nip_ui_geometry.m; sourceTree = "<group>"; };
+		B03B6C1E1E2777CD00D279B8 /* nip_ui_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_ui_util.h; sourceTree = "<group>"; };
+		B03B6C1F1E2777CD00D279B8 /* NIPInputViewTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPInputViewTranslator.h; sourceTree = "<group>"; };
+		B03B6C201E2777CD00D279B8 /* NIPInputViewTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPInputViewTranslator.m; sourceTree = "<group>"; };
+		B03B6C221E2777CD00D279B8 /* nip_ui_views.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nip_ui_views.h; sourceTree = "<group>"; };
+		B03B6C231E2777CD00D279B8 /* NIPActivityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPActivityButton.h; sourceTree = "<group>"; };
+		B03B6C241E2777CD00D279B8 /* NIPActivityButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPActivityButton.m; sourceTree = "<group>"; };
+		B03B6C251E2777CD00D279B8 /* NIPActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPActivityIndicator.h; sourceTree = "<group>"; };
+		B03B6C261E2777CD00D279B8 /* NIPActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPActivityIndicator.m; sourceTree = "<group>"; };
+		B03B6C271E2777CD00D279B8 /* NIPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPageScrollView.h; sourceTree = "<group>"; };
+		B03B6C281E2777CD00D279B8 /* NIPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPageScrollView.m; sourceTree = "<group>"; };
+		B03B6C291E2777CD00D279B8 /* NIPCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPCheckBoxView.h; sourceTree = "<group>"; };
+		B03B6C2A1E2777CD00D279B8 /* NIPCheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPCheckBoxView.m; sourceTree = "<group>"; };
+		B03B6C2B1E2777CD00D279B8 /* NIPControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPControl.h; sourceTree = "<group>"; };
+		B03B6C2C1E2777CD00D279B8 /* NIPControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPControl.m; sourceTree = "<group>"; };
+		B03B6C2D1E2777CD00D279B8 /* NIPDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPDatePicker.h; sourceTree = "<group>"; };
+		B03B6C2E1E2777CD00D279B8 /* NIPDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPDatePicker.m; sourceTree = "<group>"; };
+		B03B6C2F1E2777CD00D279B8 /* NIPIconTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPIconTextView.h; sourceTree = "<group>"; };
+		B03B6C301E2777CD00D279B8 /* NIPIconTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPIconTextView.m; sourceTree = "<group>"; };
+		B03B6C311E2777CD00D279B8 /* NIPKeyValueLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPKeyValueLabel.h; sourceTree = "<group>"; };
+		B03B6C321E2777CD00D279B8 /* NIPKeyValueLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPKeyValueLabel.m; sourceTree = "<group>"; };
+		B03B6C331E2777CD00D279B8 /* NIPLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPLabelView.h; sourceTree = "<group>"; };
+		B03B6C341E2777CD00D279B8 /* NIPLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPLabelView.m; sourceTree = "<group>"; };
+		B03B6C351E2777CD00D279B8 /* NIPLayoutLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPLayoutLabel.h; sourceTree = "<group>"; };
+		B03B6C361E2777CD00D279B8 /* NIPLayoutLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPLayoutLabel.m; sourceTree = "<group>"; };
+		B03B6C371E2777CD00D279B8 /* NIPointIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPointIndicator.h; sourceTree = "<group>"; };
+		B03B6C381E2777CD00D279B8 /* NIPointIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPointIndicator.m; sourceTree = "<group>"; };
+		B03B6C391E2777CD00D279B8 /* NIPPlaceholderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPPlaceholderLabel.h; sourceTree = "<group>"; };
+		B03B6C3A1E2777CD00D279B8 /* NIPPlaceholderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPPlaceholderLabel.m; sourceTree = "<group>"; };
+		B03B6C3B1E2777CD00D279B8 /* NIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIProgressView.h; sourceTree = "<group>"; };
+		B03B6C3C1E2777CD00D279B8 /* NIProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIProgressView.m; sourceTree = "<group>"; };
+		B03B6C3D1E2777CD00D279B8 /* NIPScreenTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPScreenTipView.h; sourceTree = "<group>"; };
+		B03B6C3E1E2777CD00D279B8 /* NIPScreenTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPScreenTipView.m; sourceTree = "<group>"; };
+		B03B6C3F1E2777CD00D279B8 /* NIPSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPSegmentView.h; sourceTree = "<group>"; };
+		B03B6C401E2777CD00D279B8 /* NIPSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPSegmentView.m; sourceTree = "<group>"; };
+		B03B6C411E2777CD00D279B8 /* NIPSeparatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPSeparatorView.h; sourceTree = "<group>"; };
+		B03B6C421E2777CD00D279B8 /* NIPSeparatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPSeparatorView.m; sourceTree = "<group>"; };
+		B03B6C431E2777CD00D279B8 /* NIPSortSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPSortSegmentView.h; sourceTree = "<group>"; };
+		B03B6C441E2777CD00D279B8 /* NIPSortSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPSortSegmentView.m; sourceTree = "<group>"; };
+		B03B6C451E2777CD00D279B8 /* NIPStateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPStateButton.h; sourceTree = "<group>"; };
+		B03B6C461E2777CD00D279B8 /* NIPStateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPStateButton.m; sourceTree = "<group>"; };
+		B03B6C471E2777CD00D279B8 /* NIPStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPStatusBar.h; sourceTree = "<group>"; };
+		B03B6C481E2777CD00D279B8 /* NIPStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPStatusBar.m; sourceTree = "<group>"; };
+		B03B6C491E2777CD00D279B8 /* NIPSwipeOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPSwipeOptionView.h; sourceTree = "<group>"; };
+		B03B6C4A1E2777CD00D279B8 /* NIPSwipeOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPSwipeOptionView.m; sourceTree = "<group>"; };
+		B03B6C4B1E2777CD00D279B8 /* NIPSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPSwitchView.h; sourceTree = "<group>"; };
+		B03B6C4C1E2777CD00D279B8 /* NIPSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPSwitchView.m; sourceTree = "<group>"; };
+		B03B6C4D1E2777CD00D279B8 /* NIPTextActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPTextActivityIndicator.h; sourceTree = "<group>"; };
+		B03B6C4E1E2777CD00D279B8 /* NIPTextActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPTextActivityIndicator.m; sourceTree = "<group>"; };
+		B03B6C4F1E2777CD00D279B8 /* NIPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPTextField.h; sourceTree = "<group>"; };
+		B03B6C501E2777CD00D279B8 /* NIPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPTextField.m; sourceTree = "<group>"; };
+		B03B6C511E2777CD00D279B8 /* NIPTextFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPTextFormView.h; sourceTree = "<group>"; };
+		B03B6C521E2777CD00D279B8 /* NIPTextFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPTextFormView.m; sourceTree = "<group>"; };
+		B03B6C531E2777CD00D279B8 /* NIPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPTextView.h; sourceTree = "<group>"; };
+		B03B6C541E2777CD00D279B8 /* NIPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPTextView.m; sourceTree = "<group>"; };
+		B03B6C551E2777CD00D279B8 /* NIPTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPTimePicker.h; sourceTree = "<group>"; };
+		B03B6C561E2777CD00D279B8 /* NIPTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPTimePicker.m; sourceTree = "<group>"; };
+		B03B6C571E2777CD00D279B8 /* NIPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPView.h; sourceTree = "<group>"; };
+		B03B6C581E2777CD00D279B8 /* NIPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPView.m; sourceTree = "<group>"; };
+		B03B6C591E2777CD00D279B8 /* NIPViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPViewProtocol.h; sourceTree = "<group>"; };
+		B03B6C5A1E2777CD00D279B8 /* NIPUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPUIFactory.h; sourceTree = "<group>"; };
+		B03B6C5B1E2777CD00D279B8 /* NIPUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPUIFactory.m; sourceTree = "<group>"; };
+		B03B6C5D1E2777CD00D279B8 /* nip_black_back_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nip_black_back_btn@2x.png"; sourceTree = "<group>"; };
+		B03B6C5E1E2777CD00D279B8 /* nip_navigationBar_bgImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nip_navigationBar_bgImage@2x.png"; sourceTree = "<group>"; };
+		B03B6C5F1E2777CD00D279B8 /* nip_white_back_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nip_white_back_btn@2x.png"; sourceTree = "<group>"; };
+		B049C0091FD6A730008C97FC /* NIPBase64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NIPBase64Transcoder.c; sourceTree = "<group>"; };
+		B049C00A1FD6A731008C97FC /* NIPBase64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPBase64Transcoder.h; sourceTree = "<group>"; };
+		B049C0161FD7ECC8008C97FC /* NIPIconFontService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPIconFontService.h; sourceTree = "<group>"; };
+		B049C0171FD7ECC8008C97FC /* NIPIconFontService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPIconFontService.m; sourceTree = "<group>"; };
+		B051AEE11DF80049003944A9 /* NIPMyBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPMyBaseViewController.h; sourceTree = "<group>"; };
+		B051AEE21DF80049003944A9 /* NIPMyBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPMyBaseViewController.m; sourceTree = "<group>"; };
+		B051AEEE1DF80FBD003944A9 /* UIViewController+TopMostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopMostViewController.h"; sourceTree = "<group>"; };
+		B051AEEF1DF80FBD003944A9 /* UIViewController+TopMostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopMostViewController.m"; sourceTree = "<group>"; };
+		B05D0CAA1DE3F36800495172 /* NIPCommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPCommonUtil.h; sourceTree = "<group>"; };
+		B05D0CAB1DE3F36800495172 /* NIPCommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPCommonUtil.m; sourceTree = "<group>"; };
+		B05F24321E779396004D59B3 /* NIPEdgeInsetsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPEdgeInsetsLabel.h; sourceTree = "<group>"; };
+		B05F24331E779396004D59B3 /* NIPEdgeInsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPEdgeInsetsLabel.m; sourceTree = "<group>"; };
+		B05F24841E7A3F37004D59B3 /* NIPURLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPURLHandler.h; sourceTree = "<group>"; };
+		B05F24851E7A3F37004D59B3 /* NIPURLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPURLHandler.m; sourceTree = "<group>"; };
+		B08C98B91DF93C580064B4F2 /* NIPUrlFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPUrlFactory.h; sourceTree = "<group>"; };
+		B08C98BA1DF93C580064B4F2 /* NIPUrlFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPUrlFactory.m; sourceTree = "<group>"; };
+		B0B7F8641E0235E200E65AA9 /* NIPUIFactoryChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPUIFactoryChild.h; sourceTree = "<group>"; };
+		B0B7F8651E0235E200E65AA9 /* NIPUIFactoryChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPUIFactoryChild.m; sourceTree = "<group>"; };
+		B0B7F8671E02369000E65AA9 /* NIPImageFactoryChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPImageFactoryChild.h; sourceTree = "<group>"; };
+		B0B7F8681E02369000E65AA9 /* NIPImageFactoryChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPImageFactoryChild.m; sourceTree = "<group>"; };
+		B0CA9CDA1E01773F001B8F09 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DC731D201F2A0F24001885E6 /* NIPNotificationSettingManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPNotificationSettingManger.h; sourceTree = "<group>"; };
+		DC731D211F2A0F24001885E6 /* NIPNotificationSettingManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPNotificationSettingManger.m; sourceTree = "<group>"; };
+		DC9398A71EB0C1E90077D5F8 /* NIPKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPKeyboardManager.h; sourceTree = "<group>"; };
+		DC9398A81EB0C1E90077D5F8 /* NIPKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPKeyboardManager.m; sourceTree = "<group>"; };
+		DC9398AA1EB0C22D0077D5F8 /* NIPFingerRecognizerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPFingerRecognizerManager.h; sourceTree = "<group>"; };
+		DC9398AB1EB0C22D0077D5F8 /* NIPFingerRecognizerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPFingerRecognizerManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07ADB6911D93CE1300766E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CA9CDB1E01773F001B8F09 /* AudioToolbox.framework in Frameworks */,
+				071E0B6F1DC9C7B000AC8F38 /* CoreTelephony.framework in Frameworks */,
+				071E0B6D1DC9C7A700AC8F38 /* libsqlite3.tbd in Frameworks */,
+				071E0B6B1DC9C78C00AC8F38 /* CoreGraphics.framework in Frameworks */,
+				071E0B691DC9C77E00AC8F38 /* SystemConfiguration.framework in Frameworks */,
+				071E0B671DC9C75D00AC8F38 /* Security.framework in Frameworks */,
+				070A29881DB5CA3300BA1B64 /* libc++.tbd in Frameworks */,
+				4D8EDBEFDB87AF1F7529EA93 /* libPods-NSIP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ADB6AA1D93CE1300766E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ADB6B51D93CE1300766E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07245AEE1E0B750900C8F641 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				07245AEF1E0B750900C8F641 /* NIPLoginSession.h */,
+				07245AF01E0B750900C8F641 /* NIPLoginSession.m */,
+			);
+			name = login;
+			path = NSIP/common/service/login;
+			sourceTree = SOURCE_ROOT;
+		};
+		0732F3921E139E6200A74C01 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3931E139E6200A74C01 /* controller */,
+				0732F3961E139E6200A74C01 /* model */,
+				0732F3971E139E6200A74C01 /* view */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		0732F3931E139E6200A74C01 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3941E139E6200A74C01 /* NIPHomeViewController.h */,
+				0732F3951E139E6200A74C01 /* NIPHomeViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0732F3961E139E6200A74C01 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0732F3971E139E6200A74C01 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0732F3A11E139F2F00A74C01 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3A21E139F2F00A74C01 /* model */,
+				0732F3AC1E139F2F00A74C01 /* service */,
+			);
+			name = network;
+			path = NSIP/common/service/network;
+			sourceTree = SOURCE_ROOT;
+		};
+		0732F3A21E139F2F00A74C01 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3A31E139F2F00A74C01 /* auto */,
+				0732F3AA1E139F2F00A74C01 /* NIPBaseResponse.h */,
+				0732F3AB1E139F2F00A74C01 /* NIPBaseResponse.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0732F3A31E139F2F00A74C01 /* auto */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3A41E139F2F00A74C01 /* model */,
+				0732F3A71E139F2F00A74C01 /* response */,
+			);
+			path = auto;
+			sourceTree = "<group>";
+		};
+		0732F3A41E139F2F00A74C01 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3A51E139F2F00A74C01 /* NIPWatchItem.h */,
+				0732F3A61E139F2F00A74C01 /* NIPWatchItem.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0732F3A71E139F2F00A74C01 /* response */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3A81E139F2F00A74C01 /* NIPPartnerGoodsResponse.h */,
+				0732F3A91E139F2F00A74C01 /* NIPPartnerGoodsResponse.m */,
+			);
+			path = response;
+			sourceTree = "<group>";
+		};
+		0732F3AC1E139F2F00A74C01 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3AD1E139F2F00A74C01 /* auto */,
+				0732F3B01E139F2F00A74C01 /* NIPBaseService.h */,
+				0732F3B11E139F2F00A74C01 /* NIPBaseService.m */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		0732F3AD1E139F2F00A74C01 /* auto */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3AE1E139F2F00A74C01 /* NIPProductService.h */,
+				0732F3AF1E139F2F00A74C01 /* NIPProductService.m */,
+			);
+			path = auto;
+			sourceTree = "<group>";
+		};
+		0732F3B71E139FDD00A74C01 /* album */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3BC1E139FDD00A74C01 /* NIPAlbumListViewController.h */,
+				0732F3BD1E139FDD00A74C01 /* NIPAlbumListViewController.m */,
+				0732F3C61E139FDD00A74C01 /* NIPPhotosViewController.h */,
+				0732F3C71E139FDD00A74C01 /* NIPPhotosViewController.m */,
+				0732F3C41E139FDD00A74C01 /* NIPPhotoPreviewViewController.h */,
+				0732F3C51E139FDD00A74C01 /* NIPPhotoPreviewViewController.m */,
+				0732F3BE1E139FDD00A74C01 /* NIPAlbumToolbarView.h */,
+				0732F3BF1E139FDD00A74C01 /* NIPAlbumToolbarView.m */,
+				0732F3C01E139FDD00A74C01 /* NIPNumblerLabel.h */,
+				0732F3C11E139FDD00A74C01 /* NIPNumblerLabel.m */,
+				0732F3B81E139FDD00A74C01 /* NIPAlbumCell.h */,
+				0732F3B91E139FDD00A74C01 /* NIPAlbumCell.m */,
+				0732F3C21E139FDD00A74C01 /* NIPPhotoCell.h */,
+				0732F3C31E139FDD00A74C01 /* NIPPhotoCell.m */,
+				0732F3BA1E139FDD00A74C01 /* NIPAlbumInfo.h */,
+				0732F3BB1E139FDD00A74C01 /* NIPAlbumInfo.m */,
+			);
+			name = album;
+			path = NSIP/common/service/album;
+			sourceTree = SOURCE_ROOT;
+		};
+		074BE9C01DB0AD1200AEAFAC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				074BE9C81DB0BF1D00AEAFAC /* NIPWebNavigationController.h */,
+				074BE9C91DB0BF1D00AEAFAC /* NIPWebNavigationController.m */,
+				074BE9C11DB0AD8000AEAFAC /* NIPWebViewController.h */,
+				074BE9C21DB0AD8000AEAFAC /* NIPWebViewController.m */,
+				B051AEE11DF80049003944A9 /* NIPMyBaseViewController.h */,
+				B051AEE21DF80049003944A9 /* NIPMyBaseViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		074BE9C41DB0BB1E00AEAFAC /* business */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3921E139E6200A74C01 /* home */,
+				0762B7351EFA501F004A2D61 /* user */,
+			);
+			path = business;
+			sourceTree = "<group>";
+		};
+		075CD2021DC92E0B008715C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07ADB6F51D955BD000766E57 /* NSIPPageURLsDataset.h */,
+				07ADB6F61D955BD000766E57 /* NSIPPageURLsDataset.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0762B7351EFA501F004A2D61 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				0762B7361EFA501F004A2D61 /* controller */,
+				0762B7391EFA501F004A2D61 /* model */,
+				0762B73A1EFA501F004A2D61 /* view */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		0762B7361EFA501F004A2D61 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0762B73C1EFA5040004A2D61 /* NIPUserViewController.h */,
+				0762B73D1EFA5040004A2D61 /* NIPUserViewController.m */,
+				0762B7371EFA501F004A2D61 /* NIPTestPageViewController.h */,
+				0762B7381EFA501F004A2D61 /* NIPTestPageViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0762B7391EFA501F004A2D61 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0762B73A1EFA501F004A2D61 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0766D5F11DA8F7440090B790 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B051AEEE1DF80FBD003944A9 /* UIViewController+TopMostViewController.h */,
+				B051AEEF1DF80FBD003944A9 /* UIViewController+TopMostViewController.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		077CB1271DA8F45000F495CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0B7F8641E0235E200E65AA9 /* NIPUIFactoryChild.h */,
+				B0B7F8651E0235E200E65AA9 /* NIPUIFactoryChild.m */,
+				B0B7F8671E02369000E65AA9 /* NIPImageFactoryChild.h */,
+				B0B7F8681E02369000E65AA9 /* NIPImageFactoryChild.m */,
+				074BE9CB1DB0C7DE00AEAFAC /* NIPWebToolBar.h */,
+				074BE9CC1DB0C7DE00AEAFAC /* NIPWebToolBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07ADB68B1D93CE1300766E57 = {
+			isa = PBXGroup;
+			children = (
+				AFE5D0421FE9152D00D7E3A4 /* SeparationCode */,
+				B03B6B691E2777CD00D279B8 /* Utilities */,
+				B002E4A11E2767B5006D5CB8 /* Libraries */,
+				1C408992982EA74A00A194E6 /* Frameworks */,
+				07ADB6961D93CE1300766E57 /* NSIP */,
+				07ADB6B01D93CE1300766E57 /* NSIPTests */,
+				07ADB6BB1D93CE1300766E57 /* NSIPUITests */,
+				F9BBF224D6E637C05D96A37E /* Pods */,
+				07ADB6951D93CE1300766E57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07ADB6951D93CE1300766E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07ADB6941D93CE1300766E57 /* NSIP.app */,
+				07ADB6AD1D93CE1300766E57 /* NSIPTests.xctest */,
+				07ADB6B81D93CE1300766E57 /* NSIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07ADB6961D93CE1300766E57 /* NSIP */ = {
+			isa = PBXGroup;
+			children = (
+				B05D0CAD1DE41FE700495172 /* main */,
+				07ADB6CA1D93D34B00766E57 /* common */,
+				074BE9C41DB0BB1E00AEAFAC /* business */,
+				07ADB6F81D955F2400766E57 /* sourceFile */,
+				07ADB6971D93CE1300766E57 /* Supporting Files */,
+			);
+			path = NSIP;
+			sourceTree = "<group>";
+		};
+		07ADB6971D93CE1300766E57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07ADB6A31D93CE1300766E57 /* Assets.xcassets */,
+				07ADB6A81D93CE1300766E57 /* Info.plist */,
+				07ADB6A51D93CE1300766E57 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07ADB6B01D93CE1300766E57 /* NSIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				07ADB6B31D93CE1300766E57 /* Info.plist */,
+				07ADB6B11D93CE1300766E57 /* NSIPTests.m */,
+			);
+			path = NSIPTests;
+			sourceTree = "<group>";
+		};
+		07ADB6BB1D93CE1300766E57 /* NSIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07ADB6BE1D93CE1300766E57 /* Info.plist */,
+				07ADB6BC1D93CE1300766E57 /* NSIPUITests.m */,
+			);
+			path = NSIPUITests;
+			sourceTree = "<group>";
+		};
+		07ADB6CA1D93D34B00766E57 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				AF44B74E1E9DC35C00484305 /* Category */,
+				0766D5F11DA8F7440090B790 /* Extensions */,
+				075CD2021DC92E0B008715C4 /* Model */,
+				07ADB6E91D9531AE00766E57 /* Service */,
+				07ADB6D51D95250300766E57 /* URLHanlder */,
+				077CB1271DA8F45000F495CD /* View */,
+				074BE9C01DB0AD1200AEAFAC /* ViewControllers */,
+				B05D0CAA1DE3F36800495172 /* NIPCommonUtil.h */,
+				B05D0CAB1DE3F36800495172 /* NIPCommonUtil.m */,
+				07ADB6EE1D953A8900766E57 /* NIPreciousLocalSettings.h */,
+				07ADB6EF1D953A8900766E57 /* NIPreciousLocalSettings.m */,
+				07ADB6CB1D93D36A00766E57 /* NIPDefine.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		07ADB6D51D95250300766E57 /* URLHanlder */ = {
+			isa = PBXGroup;
+			children = (
+				07ADB6D91D95259F00766E57 /* NIPURLHandler+ComponentsDemo.h */,
+				07ADB6DA1D95259F00766E57 /* NIPURLHandler+ComponentsDemo.m */,
+				07ADB6E31D952CCF00766E57 /* NIPURLRouter.h */,
+				07ADB6E41D952CCF00766E57 /* NIPURLRouter.m */,
+				B08C98B91DF93C580064B4F2 /* NIPUrlFactory.h */,
+				B08C98BA1DF93C580064B4F2 /* NIPUrlFactory.m */,
+			);
+			path = URLHanlder;
+			sourceTree = "<group>";
+		};
+		07ADB6E91D9531AE00766E57 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0732F3B71E139FDD00A74C01 /* album */,
+				0732F3A11E139F2F00A74C01 /* network */,
+				07245AEE1E0B750900C8F641 /* login */,
+				07ADB6EA1D95321900766E57 /* data */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		07ADB6EA1D95321900766E57 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				07245AD91E0B733200C8F641 /* NIPVersionUpdater.h */,
+				07245ADA1E0B733200C8F641 /* NIPVersionUpdater.m */,
+				07ADB6EB1D95323D00766E57 /* NIPConfigFileUpdateService.h */,
+				07ADB6EC1D95323D00766E57 /* NIPConfigFileUpdateService.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		07ADB6F81D955F2400766E57 /* sourceFile */ = {
+			isa = PBXGroup;
+			children = (
+				07ADB6F91D955F5C00766E57 /* PageURLsInfo.json */,
+			);
+			path = sourceFile;
+			sourceTree = "<group>";
+		};
+		1C408992982EA74A00A194E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0CA9CDA1E01773F001B8F09 /* AudioToolbox.framework */,
+				071E0B6E1DC9C7B000AC8F38 /* CoreTelephony.framework */,
+				071E0B6C1DC9C7A700AC8F38 /* libsqlite3.tbd */,
+				071E0B6A1DC9C78C00AC8F38 /* CoreGraphics.framework */,
+				071E0B681DC9C77E00AC8F38 /* SystemConfiguration.framework */,
+				071E0B661DC9C75D00AC8F38 /* Security.framework */,
+				070A29871DB5CA3300BA1B64 /* libc++.tbd */,
+				6975D1A4FC91C625D64A6F1F /* libPods-NSIP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF44B74E1E9DC35C00484305 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AF44B74F1E9DC35C00484305 /* UIImage+NIPLoadBundleImage.h */,
+				AF44B7501E9DC35C00484305 /* UIImage+NIPLoadBundleImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AFE5D0421FE9152D00D7E3A4 /* SeparationCode */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5D0431FE9159600D7E3A4 /* SeparationHeader.h */,
+				B03B6B9C1E2777CD00D279B8 /* NIPImageFactory.h */,
+				B03B6B9D1E2777CD00D279B8 /* NIPImageFactory.m */,
+				B03B6B921E2777CD00D279B8 /* NIPAction.h */,
+				B03B6B931E2777CD00D279B8 /* NIPAction.m */,
+				B03B6BA01E2777CD00D279B8 /* NIPKeyValue.h */,
+				B03B6BA11E2777CD00D279B8 /* NIPKeyValue.m */,
+				B03B6B941E2777CD00D279B8 /* NIPagedArray.h */,
+				B03B6B951E2777CD00D279B8 /* NIPagedArray.m */,
+				B05F24841E7A3F37004D59B3 /* NIPURLHandler.h */,
+				B05F24851E7A3F37004D59B3 /* NIPURLHandler.m */,
+				B03B6C391E2777CD00D279B8 /* NIPPlaceholderLabel.h */,
+				B03B6C3A1E2777CD00D279B8 /* NIPPlaceholderLabel.m */,
+				B03B6C5C1E2777CD00D279B8 /* resources */,
+			);
+			path = SeparationCode;
+			sourceTree = "<group>";
+		};
+		B002E4A11E2767B5006D5CB8 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B002E5CC1E2767B5006D5CB8 /* URS */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		B002E5CC1E2767B5006D5CB8 /* URS */ = {
+			isa = PBXGroup;
+			children = (
+				B002E5CD1E2767B5006D5CB8 /* NSData+URS.h */,
+				B002E5CE1E2767B5006D5CB8 /* NSData+URS.m */,
+				B002E5CF1E2767B5006D5CB8 /* NSString+URS.h */,
+				B002E5D01E2767B5006D5CB8 /* NSString+URS.m */,
+				B002E5D11E2767B5006D5CB8 /* UIDevice+URS.h */,
+				B002E5D21E2767B5006D5CB8 /* UIDevice+URS.m */,
+				B002E5D31E2767B5006D5CB8 /* URSARC.h */,
+				B002E5D41E2767B5006D5CB8 /* URSAuth.h */,
+				B002E5D51E2767B5006D5CB8 /* URSAuth.m */,
+				B002E5D61E2767B5006D5CB8 /* URSRequest.h */,
+				B002E5D71E2767B5006D5CB8 /* URSRequest.m */,
+			);
+			path = URS;
+			sourceTree = "<group>";
+		};
+		B03B6B691E2777CD00D279B8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6B6A1E2777CD00D279B8 /* nip_common_lib */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B03B6B6A1E2777CD00D279B8 /* nip_common_lib */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6B6B1E2777CD00D279B8 /* nip_basic_additions */,
+				B03B6B7F1E2777CD00D279B8 /* nip_basic_utils */,
+				B03B6BB41E2777CD00D279B8 /* nip_common_lib.h */,
+				B03B6BB51E2777CD00D279B8 /* nip_controller */,
+				B03B6BC91E2777CD00D279B8 /* nip_macros */,
+				B03B6BCB1E2777CD00D279B8 /* nip_network */,
+				B03B6BE81E2777CD00D279B8 /* nip_ui */,
+			);
+			path = nip_common_lib;
+			sourceTree = "<group>";
+		};
+		B03B6B6B1E2777CD00D279B8 /* nip_basic_additions */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6B6C1E2777CD00D279B8 /* nip_basic_additions.h */,
+				B03B6B6D1E2777CD00D279B8 /* NSArray+NIPBasicAdditions.h */,
+				B03B6B6E1E2777CD00D279B8 /* NSArray+NIPBasicAdditions.m */,
+				B03B6B6F1E2777CD00D279B8 /* NSData+NIPBasicAdditions.h */,
+				B03B6B701E2777CD00D279B8 /* NSData+NIPBasicAdditions.m */,
+				B03B6B711E2777CD00D279B8 /* NSDate+NIPBasicAdditions.h */,
+				B03B6B721E2777CD00D279B8 /* NSDate+NIPBasicAdditions.m */,
+				B03B6B731E2777CD00D279B8 /* NSDateFormatter+NIPBasicAdditions.h */,
+				B03B6B741E2777CD00D279B8 /* NSDateFormatter+NIPBasicAdditions.m */,
+				B03B6B751E2777CD00D279B8 /* NSDictionary+NIPBasicAdditions.h */,
+				B03B6B761E2777CD00D279B8 /* NSDictionary+NIPBasicAdditions.m */,
+				B03B6B771E2777CD00D279B8 /* NSString+NIPBasicAdditions.h */,
+				B03B6B781E2777CD00D279B8 /* NSString+NIPBasicAdditions.m */,
+				B03B6B791E2777CD00D279B8 /* NSURL+NIPBasicAdditions.h */,
+				B03B6B7A1E2777CD00D279B8 /* NSURL+NTBasicAdditions.m */,
+				B03B6B7B1E2777CD00D279B8 /* UIDevice+NIPBasicAdditions.h */,
+				B03B6B7C1E2777CD00D279B8 /* UIDevice+NIPBasicAdditions.m */,
+				B03B6B7D1E2777CD00D279B8 /* UILocalNotification+NIPBasicAdditions.h */,
+				B03B6B7E1E2777CD00D279B8 /* UILocalNotification+NIPBasicAdditions.m */,
+			);
+			path = nip_basic_additions;
+			sourceTree = "<group>";
+		};
+		B03B6B7F1E2777CD00D279B8 /* nip_basic_utils */ = {
+			isa = PBXGroup;
+			children = (
+				B049C0161FD7ECC8008C97FC /* NIPIconFontService.h */,
+				B049C0171FD7ECC8008C97FC /* NIPIconFontService.m */,
+				B03B6B801E2777CD00D279B8 /* nip_basic_utils.h */,
+				B049C0091FD6A730008C97FC /* NIPBase64Transcoder.c */,
+				B049C00A1FD6A731008C97FC /* NIPBase64Transcoder.h */,
+				B03B6B811E2777CD00D279B8 /* nip_pinyin */,
+				B03B6B981E2777CD00D279B8 /* NIPCocoaSecurity.h */,
+				B03B6B991E2777CD00D279B8 /* NIPCocoaSecurity.m */,
+				B03B6B9A1E2777CD00D279B8 /* NIPFileService.h */,
+				B03B6B9B1E2777CD00D279B8 /* NIPFileService.m */,
+				B03B6B9E1E2777CD00D279B8 /* NIPKeychain.h */,
+				B03B6B9F1E2777CD00D279B8 /* NIPKeychain.m */,
+				B03B6BA21E2777CD00D279B8 /* NIPLocalCacheBase.h */,
+				B03B6BA31E2777CD00D279B8 /* NIPLocalCacheBase.m */,
+				B03B6BA41E2777CD00D279B8 /* NIPLocalSettings.h */,
+				DC731D201F2A0F24001885E6 /* NIPNotificationSettingManger.h */,
+				DC731D211F2A0F24001885E6 /* NIPNotificationSettingManger.m */,
+				B03B6BA51E2777CD00D279B8 /* NIPLocalSettings.m */,
+				B03B6BA61E2777CD00D279B8 /* NIPNotificationManager.h */,
+				B03B6BA71E2777CD00D279B8 /* NIPNotificationManager.m */,
+				B03B6BA81E2777CD00D279B8 /* NIPQueuedTask.h */,
+				B03B6BA91E2777CD00D279B8 /* NIPQueuedTask.m */,
+				B03B6BAA1E2777CD00D279B8 /* NIPSectionModel.h */,
+				B03B6BAB1E2777CD00D279B8 /* NIPSectionModel.m */,
+				B03B6BAC1E2777CD00D279B8 /* NIPSoundManager.h */,
+				B03B6BAD1E2777CD00D279B8 /* NIPSoundManager.m */,
+				B03B6BAE1E2777CD00D279B8 /* NIPTaskQueue.h */,
+				B03B6BAF1E2777CD00D279B8 /* NIPTaskQueue.m */,
+				B03B6BB01E2777CD00D279B8 /* NIPTimer.h */,
+				B03B6BB11E2777CD00D279B8 /* NIPTimer.m */,
+				B03B6BB21E2777CD00D279B8 /* NIPUtilsFactory.h */,
+				B03B6BB31E2777CD00D279B8 /* NIPUtilsFactory.m */,
+				DC9398A71EB0C1E90077D5F8 /* NIPKeyboardManager.h */,
+				DC9398A81EB0C1E90077D5F8 /* NIPKeyboardManager.m */,
+				DC9398AA1EB0C22D0077D5F8 /* NIPFingerRecognizerManager.h */,
+				DC9398AB1EB0C22D0077D5F8 /* NIPFingerRecognizerManager.m */,
+				B03B6BC71E2777CD00D279B8 /* NIPIntrospector.h */,
+				B03B6BC81E2777CD00D279B8 /* NIPIntrospector.m */,
+			);
+			path = nip_basic_utils;
+			sourceTree = "<group>";
+		};
+		B03B6B811E2777CD00D279B8 /* nip_pinyin */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6B821E2777CD00D279B8 /* nip_pinyin_class */,
+				B03B6B901E2777CD00D279B8 /* nip_pinyin_resources */,
+			);
+			path = nip_pinyin;
+			sourceTree = "<group>";
+		};
+		B03B6B821E2777CD00D279B8 /* nip_pinyin_class */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6B831E2777CD00D279B8 /* nip_pinyin.h */,
+				B03B6B841E2777CD00D279B8 /* NIPChineseToPinyinResource.h */,
+				B03B6B851E2777CD00D279B8 /* NIPChineseToPinyinResource.m */,
+				B03B6B861E2777CD00D279B8 /* NIPHanyuPinyinOutputFormat.h */,
+				B03B6B871E2777CD00D279B8 /* NIPHanyuPinyinOutputFormat.m */,
+				B03B6B881E2777CD00D279B8 /* NIPinyinFormatter.h */,
+				B03B6B891E2777CD00D279B8 /* NIPinyinFormatter.m */,
+				B03B6B8A1E2777CD00D279B8 /* NIPinyinHelper.h */,
+				B03B6B8B1E2777CD00D279B8 /* NIPinyinHelper.m */,
+				B03B6B8C1E2777CD00D279B8 /* NIPPinYinUtil.h */,
+				B03B6B8D1E2777CD00D279B8 /* NIPPinYinUtil.m */,
+				B03B6B8E1E2777CD00D279B8 /* NSString+NIPPinYin4Cocoa.h */,
+				B03B6B8F1E2777CD00D279B8 /* NSString+NIPPinYin4Cocoa.m */,
+			);
+			path = nip_pinyin_class;
+			sourceTree = "<group>";
+		};
+		B03B6B901E2777CD00D279B8 /* nip_pinyin_resources */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6B911E2777CD00D279B8 /* unicode_to_hanyu_pinyin.txt */,
+			);
+			path = nip_pinyin_resources;
+			sourceTree = "<group>";
+		};
+		B03B6BB51E2777CD00D279B8 /* nip_controller */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BB61E2777CD00D279B8 /* nip_controller.h */,
+				B03B6BB71E2777CD00D279B8 /* nip_controller_url */,
+				B03B6BBB1E2777CD00D279B8 /* nip_controller_util */,
+			);
+			path = nip_controller;
+			sourceTree = "<group>";
+		};
+		B03B6BB71E2777CD00D279B8 /* nip_controller_url */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BB81E2777CD00D279B8 /* NIPUrlControllerProtocol.h */,
+				B03B6BB91E2777CD00D279B8 /* NIPUrlControllerRouter.h */,
+				B03B6BBA1E2777CD00D279B8 /* NIPUrlControllerRouter.m */,
+			);
+			path = nip_controller_url;
+			sourceTree = "<group>";
+		};
+		B03B6BBB1E2777CD00D279B8 /* nip_controller_util */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BBC1E2777CD00D279B8 /* NIPAppTabBarController.h */,
+				B03B6BBD1E2777CD00D279B8 /* NIPAppTabBarController.m */,
+				B03B6BBE1E2777CD00D279B8 /* NIPBaseViewController.h */,
+				B03B6BBF1E2777CD00D279B8 /* NIPBaseViewController.m */,
+				B03B6BC01E2777CD00D279B8 /* NIPContainerViewController.h */,
+				B03B6BC11E2777CD00D279B8 /* NIPContainerViewController.m */,
+				B03B6BC21E2777CD00D279B8 /* NIPNavigationController.h */,
+				B03B6BC31E2777CD00D279B8 /* NIPNavigationController.m */,
+				B03B6BC41E2777CD00D279B8 /* NIPSlideViewController.h */,
+				B03B6BC51E2777CD00D279B8 /* NIPSlideViewController.m */,
+			);
+			path = nip_controller_util;
+			sourceTree = "<group>";
+		};
+		B03B6BC91E2777CD00D279B8 /* nip_macros */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BCA1E2777CD00D279B8 /* nip_macros.h */,
+			);
+			path = nip_macros;
+			sourceTree = "<group>";
+		};
+		B03B6BCB1E2777CD00D279B8 /* nip_network */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BCC1E2777CD00D279B8 /* nip_httpManager */,
+				B03B6BD31E2777CD00D279B8 /* nip_network.h */,
+				B03B6BD41E2777CD00D279B8 /* nip_request */,
+				B03B6BD71E2777CD00D279B8 /* nip_response */,
+			);
+			path = nip_network;
+			sourceTree = "<group>";
+		};
+		B03B6BCC1E2777CD00D279B8 /* nip_httpManager */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BCD1E2777CD00D279B8 /* NIPHttpRequestService.h */,
+				B03B6BCE1E2777CD00D279B8 /* NIPHttpRequestService.m */,
+				B03B6BCF1E2777CD00D279B8 /* NIPHTTPSessionManager.h */,
+				B03B6BD01E2777CD00D279B8 /* NIPHTTPSessionManager.m */,
+				B03B6BD11E2777CD00D279B8 /* NIPHttpsValidator.h */,
+				B03B6BD21E2777CD00D279B8 /* NIPHttpsValidator.m */,
+			);
+			path = nip_httpManager;
+			sourceTree = "<group>";
+		};
+		B03B6BD41E2777CD00D279B8 /* nip_request */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BD51E2777CD00D279B8 /* NIPBaseRequest.h */,
+				B03B6BD61E2777CD00D279B8 /* NIPBaseRequest.m */,
+			);
+			path = nip_request;
+			sourceTree = "<group>";
+		};
+		B03B6BD71E2777CD00D279B8 /* nip_response */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BDA1E2777CD00D279B8 /* NIPCoderUtil.h */,
+				B03B6BDB1E2777CD00D279B8 /* NIPCoderUtil.m */,
+				B03B6BDC1E2777CD00D279B8 /* NIPHttpResponse.h */,
+				B03B6BDD1E2777CD00D279B8 /* NIPHttpResponse.m */,
+				B03B6BDE1E2777CD00D279B8 /* NIPJSONHttpResponse.h */,
+				B03B6BDF1E2777CD00D279B8 /* NIPJSONHttpResponse.m */,
+				B03B6BE01E2777CD00D279B8 /* NIPModelHttpResponse.h */,
+				B03B6BE11E2777CD00D279B8 /* NIPModelHttpResponse.m */,
+				B03B6BE21E2777CD00D279B8 /* NIPModelObject.h */,
+			);
+			path = nip_response;
+			sourceTree = "<group>";
+		};
+		B03B6BE81E2777CD00D279B8 /* nip_ui */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BE91E2777CD00D279B8 /* nip_ui.h */,
+				B03B6BEA1E2777CD00D279B8 /* nip_ui_additions */,
+				B03B6BF61E2777CD00D279B8 /* nip_ui_alert */,
+				B03B6C001E2777CD00D279B8 /* nip_ui_container */,
+				B03B6C061E2777CD00D279B8 /* nip_ui_layout */,
+				B03B6C111E2777CD00D279B8 /* nip_ui_popup */,
+				B03B6C1B1E2777CD00D279B8 /* nip_ui_util */,
+				B03B6C211E2777CD00D279B8 /* nip_ui_views */,
+			);
+			path = nip_ui;
+			sourceTree = "<group>";
+		};
+		B03B6BEA1E2777CD00D279B8 /* nip_ui_additions */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BEB1E2777CD00D279B8 /* nip_ui_additions.h */,
+				B03B6BEC1E2777CD00D279B8 /* UIColor+NIPBasicAdditions.h */,
+				B03B6BED1E2777CD00D279B8 /* UIColor+NIPBasicAdditions.m */,
+				B03B6BEE1E2777CD00D279B8 /* UIImage+NIPBasicAdditions.h */,
+				B03B6BEF1E2777CD00D279B8 /* UIImage+NIPBasicAdditions.m */,
+				B03B6BF01E2777CD00D279B8 /* UILabel+NIPBasicAdditions.h */,
+				B03B6BF11E2777CD00D279B8 /* UILabel+NIPBasicAdditions.m */,
+				B03B6BF21E2777CD00D279B8 /* UIResponder+NIPBasicAdditions.h */,
+				B03B6BF31E2777CD00D279B8 /* UIResponder+NIPBasicAdditions.m */,
+				B03B6BF41E2777CD00D279B8 /* UIView+NIPBasicAdditions.h */,
+				B03B6BF51E2777CD00D279B8 /* UIView+NIPBasicAdditions.m */,
+			);
+			path = nip_ui_additions;
+			sourceTree = "<group>";
+		};
+		B03B6BF61E2777CD00D279B8 /* nip_ui_alert */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6BF71E2777CD00D279B8 /* nip_ui_alert.h */,
+				B03B6BF81E2777CD00D279B8 /* NIPActionSheet.h */,
+				B03B6BF91E2777CD00D279B8 /* NIPActionSheet.m */,
+				B03B6BFA1E2777CD00D279B8 /* NIPAlertView.h */,
+				B03B6BFB1E2777CD00D279B8 /* NIPAlertView.m */,
+				B03B6BFC1E2777CD00D279B8 /* NIPCustomAlertBase.h */,
+				B03B6BFD1E2777CD00D279B8 /* NIPCustomAlertBase.m */,
+				B03B6BFE1E2777CD00D279B8 /* NIPScreenTipWindow.h */,
+				B03B6BFF1E2777CD00D279B8 /* NIPScreenTipWindow.m */,
+			);
+			path = nip_ui_alert;
+			sourceTree = "<group>";
+		};
+		B03B6C001E2777CD00D279B8 /* nip_ui_container */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6C011E2777CD00D279B8 /* nip_ui_container.h */,
+				B03B6C021E2777CD00D279B8 /* NIPScrollContainer.h */,
+				B03B6C031E2777CD00D279B8 /* NIPScrollContainer.m */,
+				B03B6C041E2777CD00D279B8 /* NIPTableContainerView.h */,
+				B03B6C051E2777CD00D279B8 /* NIPTableContainerView.m */,
+			);
+			path = nip_ui_container;
+			sourceTree = "<group>";
+		};
+		B03B6C061E2777CD00D279B8 /* nip_ui_layout */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6C071E2777CD00D279B8 /* nip_ui_layout.h */,
+				B03B6C081E2777CD00D279B8 /* NIPGridLayout.h */,
+				B03B6C091E2777CD00D279B8 /* NIPGridLayout.m */,
+				B03B6C0A1E2777CD00D279B8 /* NIPHorizontalLayout.h */,
+				B03B6C0B1E2777CD00D279B8 /* NIPHorizontalLayout.m */,
+				B03B6C0C1E2777CD00D279B8 /* NIPLayoutable.h */,
+				B03B6C0D1E2777CD00D279B8 /* NIPLayoutBase.h */,
+				B03B6C0E1E2777CD00D279B8 /* NIPLayoutBase.m */,
+				B03B6C0F1E2777CD00D279B8 /* NIPVerticalLayout.h */,
+				B03B6C101E2777CD00D279B8 /* NIPVerticalLayout.m */,
+			);
+			path = nip_ui_layout;
+			sourceTree = "<group>";
+		};
+		B03B6C111E2777CD00D279B8 /* nip_ui_popup */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6C121E2777CD00D279B8 /* nip_ui_popup.h */,
+				B03B6C131E2777CD00D279B8 /* NIPopupBase.h */,
+				B03B6C141E2777CD00D279B8 /* NIPopupBase.m */,
+				B03B6C151E2777CD00D279B8 /* NIPopupMaskView.h */,
+				B03B6C161E2777CD00D279B8 /* NIPopupMaskView.m */,
+				B03B6C171E2777CD00D279B8 /* NIPopupToastView.h */,
+				B03B6C181E2777CD00D279B8 /* NIPopupToastView.m */,
+				B03B6C191E2777CD00D279B8 /* NIPopupView.h */,
+				B03B6C1A1E2777CD00D279B8 /* NIPopupView.m */,
+			);
+			path = nip_ui_popup;
+			sourceTree = "<group>";
+		};
+		B03B6C1B1E2777CD00D279B8 /* nip_ui_util */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6C1C1E2777CD00D279B8 /* nip_ui_geometry.h */,
+				B03B6C1D1E2777CD00D279B8 /* nip_ui_geometry.m */,
+				B03B6C1E1E2777CD00D279B8 /* nip_ui_util.h */,
+				B03B6C1F1E2777CD00D279B8 /* NIPInputViewTranslator.h */,
+				B03B6C201E2777CD00D279B8 /* NIPInputViewTranslator.m */,
+			);
+			path = nip_ui_util;
+			sourceTree = "<group>";
+		};
+		B03B6C211E2777CD00D279B8 /* nip_ui_views */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6C221E2777CD00D279B8 /* nip_ui_views.h */,
+				B03B6C231E2777CD00D279B8 /* NIPActivityButton.h */,
+				B03B6C241E2777CD00D279B8 /* NIPActivityButton.m */,
+				B03B6C251E2777CD00D279B8 /* NIPActivityIndicator.h */,
+				B03B6C261E2777CD00D279B8 /* NIPActivityIndicator.m */,
+				B03B6C271E2777CD00D279B8 /* NIPageScrollView.h */,
+				B03B6C281E2777CD00D279B8 /* NIPageScrollView.m */,
+				B03B6C291E2777CD00D279B8 /* NIPCheckBoxView.h */,
+				B03B6C2A1E2777CD00D279B8 /* NIPCheckBoxView.m */,
+				B03B6C2B1E2777CD00D279B8 /* NIPControl.h */,
+				B03B6C2C1E2777CD00D279B8 /* NIPControl.m */,
+				B03B6C2D1E2777CD00D279B8 /* NIPDatePicker.h */,
+				B03B6C2E1E2777CD00D279B8 /* NIPDatePicker.m */,
+				B03B6C2F1E2777CD00D279B8 /* NIPIconTextView.h */,
+				B03B6C301E2777CD00D279B8 /* NIPIconTextView.m */,
+				B03B6C311E2777CD00D279B8 /* NIPKeyValueLabel.h */,
+				B03B6C321E2777CD00D279B8 /* NIPKeyValueLabel.m */,
+				B05F24321E779396004D59B3 /* NIPEdgeInsetsLabel.h */,
+				B05F24331E779396004D59B3 /* NIPEdgeInsetsLabel.m */,
+				B03B6C331E2777CD00D279B8 /* NIPLabelView.h */,
+				B03B6C341E2777CD00D279B8 /* NIPLabelView.m */,
+				B03B6C351E2777CD00D279B8 /* NIPLayoutLabel.h */,
+				B03B6C361E2777CD00D279B8 /* NIPLayoutLabel.m */,
+				B03B6C371E2777CD00D279B8 /* NIPointIndicator.h */,
+				B03B6C381E2777CD00D279B8 /* NIPointIndicator.m */,
+				B03B6C3B1E2777CD00D279B8 /* NIProgressView.h */,
+				B03B6C3C1E2777CD00D279B8 /* NIProgressView.m */,
+				B03B6C3D1E2777CD00D279B8 /* NIPScreenTipView.h */,
+				B03B6C3E1E2777CD00D279B8 /* NIPScreenTipView.m */,
+				B03B6C3F1E2777CD00D279B8 /* NIPSegmentView.h */,
+				B03B6C401E2777CD00D279B8 /* NIPSegmentView.m */,
+				B03B6C411E2777CD00D279B8 /* NIPSeparatorView.h */,
+				B03B6C421E2777CD00D279B8 /* NIPSeparatorView.m */,
+				B03B6C431E2777CD00D279B8 /* NIPSortSegmentView.h */,
+				B03B6C441E2777CD00D279B8 /* NIPSortSegmentView.m */,
+				B03B6C451E2777CD00D279B8 /* NIPStateButton.h */,
+				B03B6C461E2777CD00D279B8 /* NIPStateButton.m */,
+				B03B6C471E2777CD00D279B8 /* NIPStatusBar.h */,
+				B03B6C481E2777CD00D279B8 /* NIPStatusBar.m */,
+				B03B6C491E2777CD00D279B8 /* NIPSwipeOptionView.h */,
+				B03B6C4A1E2777CD00D279B8 /* NIPSwipeOptionView.m */,
+				B03B6C4B1E2777CD00D279B8 /* NIPSwitchView.h */,
+				B03B6C4C1E2777CD00D279B8 /* NIPSwitchView.m */,
+				B03B6C4D1E2777CD00D279B8 /* NIPTextActivityIndicator.h */,
+				B03B6C4E1E2777CD00D279B8 /* NIPTextActivityIndicator.m */,
+				B03B6C4F1E2777CD00D279B8 /* NIPTextField.h */,
+				B03B6C501E2777CD00D279B8 /* NIPTextField.m */,
+				B03B6C511E2777CD00D279B8 /* NIPTextFormView.h */,
+				B03B6C521E2777CD00D279B8 /* NIPTextFormView.m */,
+				B03B6C531E2777CD00D279B8 /* NIPTextView.h */,
+				B03B6C541E2777CD00D279B8 /* NIPTextView.m */,
+				B03B6C551E2777CD00D279B8 /* NIPTimePicker.h */,
+				B03B6C561E2777CD00D279B8 /* NIPTimePicker.m */,
+				B03B6C571E2777CD00D279B8 /* NIPView.h */,
+				B03B6C581E2777CD00D279B8 /* NIPView.m */,
+				B03B6C591E2777CD00D279B8 /* NIPViewProtocol.h */,
+				B03B6C5A1E2777CD00D279B8 /* NIPUIFactory.h */,
+				B03B6C5B1E2777CD00D279B8 /* NIPUIFactory.m */,
+			);
+			path = nip_ui_views;
+			sourceTree = "<group>";
+		};
+		B03B6C5C1E2777CD00D279B8 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B03B6C5D1E2777CD00D279B8 /* nip_black_back_btn@2x.png */,
+				B03B6C5E1E2777CD00D279B8 /* nip_navigationBar_bgImage@2x.png */,
+				B03B6C5F1E2777CD00D279B8 /* nip_white_back_btn@2x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		B05D0CAD1DE41FE700495172 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				07ADB69A1D93CE1300766E57 /* AppDelegate.h */,
+				07ADB69B1D93CE1300766E57 /* AppDelegate.m */,
+				07ADB6D11D93DA7700766E57 /* PrefixHeader.pch */,
+				07ADB6981D93CE1300766E57 /* main.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		F9BBF224D6E637C05D96A37E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				359A65E232F06B1710E0F8A1 /* Pods-NSIP.debug.xcconfig */,
+				276B6E3724F8899381D52DB4 /* Pods-NSIP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07ADB6931D93CE1300766E57 /* NSIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07ADB6C11D93CE1300766E57 /* Build configuration list for PBXNativeTarget "NSIP" */;
+			buildPhases = (
+				D80FDA2F34CA2ACCB1450322 /* [CP] Check Pods Manifest.lock */,
+				07ADB6901D93CE1300766E57 /* Sources */,
+				07ADB6911D93CE1300766E57 /* Frameworks */,
+				07ADB6921D93CE1300766E57 /* Resources */,
+				8AAC54B2E502DDFB3336E609 /* [CP] Embed Pods Frameworks */,
+				1521BF0410212C01C7C2CE5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSIP;
+			productName = NSIP;
+			productReference = 07ADB6941D93CE1300766E57 /* NSIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07ADB6AC1D93CE1300766E57 /* NSIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07ADB6C41D93CE1300766E57 /* Build configuration list for PBXNativeTarget "NSIPTests" */;
+			buildPhases = (
+				07ADB6A91D93CE1300766E57 /* Sources */,
+				07ADB6AA1D93CE1300766E57 /* Frameworks */,
+				07ADB6AB1D93CE1300766E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07ADB6AF1D93CE1300766E57 /* PBXTargetDependency */,
+			);
+			name = NSIPTests;
+			productName = NSIPTests;
+			productReference = 07ADB6AD1D93CE1300766E57 /* NSIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07ADB6B71D93CE1300766E57 /* NSIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07ADB6C71D93CE1300766E57 /* Build configuration list for PBXNativeTarget "NSIPUITests" */;
+			buildPhases = (
+				07ADB6B41D93CE1300766E57 /* Sources */,
+				07ADB6B51D93CE1300766E57 /* Frameworks */,
+				07ADB6B61D93CE1300766E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07ADB6BA1D93CE1300766E57 /* PBXTargetDependency */,
+			);
+			name = NSIPUITests;
+			productName = NSIPUITests;
+			productReference = 07ADB6B81D93CE1300766E57 /* NSIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07ADB68C1D93CE1300766E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = netease;
+				TargetAttributes = {
+					07ADB6931D93CE1300766E57 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 35B2KE884X;
+					};
+					07ADB6AC1D93CE1300766E57 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 07ADB6931D93CE1300766E57;
+					};
+					07ADB6B71D93CE1300766E57 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 07ADB6931D93CE1300766E57;
+					};
+				};
+			};
+			buildConfigurationList = 07ADB68F1D93CE1300766E57 /* Build configuration list for PBXProject "NSIP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07ADB68B1D93CE1300766E57;
+			productRefGroup = 07ADB6951D93CE1300766E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07ADB6931D93CE1300766E57 /* NSIP */,
+				07ADB6AC1D93CE1300766E57 /* NSIPTests */,
+				07ADB6B71D93CE1300766E57 /* NSIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07ADB6921D93CE1300766E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03B6CC51E2777CD00D279B8 /* nip_navigationBar_bgImage@2x.png in Resources */,
+				B03B6CC61E2777CD00D279B8 /* nip_white_back_btn@2x.png in Resources */,
+				B03B6C6F1E2777CD00D279B8 /* unicode_to_hanyu_pinyin.txt in Resources */,
+				07ADB6A71D93CE1300766E57 /* LaunchScreen.storyboard in Resources */,
+				B03B6CC41E2777CD00D279B8 /* nip_black_back_btn@2x.png in Resources */,
+				07ADB6A41D93CE1300766E57 /* Assets.xcassets in Resources */,
+				07ADB6FA1D955F5C00766E57 /* PageURLsInfo.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ADB6AB1D93CE1300766E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ADB6B61D93CE1300766E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1521BF0410212C01C7C2CE5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSIP/Pods-NSIP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AAC54B2E502DDFB3336E609 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSIP/Pods-NSIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D80FDA2F34CA2ACCB1450322 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07ADB6901D93CE1300766E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03B6CAE1E2777CD00D279B8 /* NIPIconTextView.m in Sources */,
+				B03B6C631E2777CD00D279B8 /* NSDateFormatter+NIPBasicAdditions.m in Sources */,
+				B03B6C971E2777CD00D279B8 /* UIView+NIPBasicAdditions.m in Sources */,
+				0732F3B41E139F2F00A74C01 /* NIPBaseResponse.m in Sources */,
+				B03B6CBD1E2777CD00D279B8 /* NIPTextActivityIndicator.m in Sources */,
+				B03B6C661E2777CD00D279B8 /* NSURL+NTBasicAdditions.m in Sources */,
+				B03B6CA51E2777CD00D279B8 /* NIPopupView.m in Sources */,
+				B03B6CC01E2777CD00D279B8 /* NIPTextView.m in Sources */,
+				B0B7F86A1E0236B900E65AA9 /* NIPUIFactoryChild.m in Sources */,
+				0732F3CA1E139FDD00A74C01 /* NIPAlbumListViewController.m in Sources */,
+				B03B6C611E2777CD00D279B8 /* NSData+NIPBasicAdditions.m in Sources */,
+				B051AEF01DF80FBD003944A9 /* UIViewController+TopMostViewController.m in Sources */,
+				B03B6CAD1E2777CD00D279B8 /* NIPDatePicker.m in Sources */,
+				0732F3CB1E139FDD00A74C01 /* NIPAlbumToolbarView.m in Sources */,
+				B03B6CBE1E2777CD00D279B8 /* NIPTextField.m in Sources */,
+				B03B6CB61E2777CD00D279B8 /* NIPSegmentView.m in Sources */,
+				074BE9C31DB0AD8000AEAFAC /* NIPWebViewController.m in Sources */,
+				0732F3B21E139F2F00A74C01 /* NIPWatchItem.m in Sources */,
+				07ADB6F01D953A8900766E57 /* NIPreciousLocalSettings.m in Sources */,
+				B03B6C651E2777CD00D279B8 /* NSString+NIPBasicAdditions.m in Sources */,
+				B002E6501E2767B6006D5CB8 /* NSData+URS.m in Sources */,
+				0762B73B1EFA501F004A2D61 /* NIPTestPageViewController.m in Sources */,
+				07ADB6E51D952CCF00766E57 /* NIPURLRouter.m in Sources */,
+				B03B6C8B1E2777CD00D279B8 /* NIPBaseRequest.m in Sources */,
+				B03B6CAF1E2777CD00D279B8 /* NIPKeyValueLabel.m in Sources */,
+				B049C00B1FD6A732008C97FC /* NIPBase64Transcoder.c in Sources */,
+				B03B6C6D1E2777CD00D279B8 /* NIPPinYinUtil.m in Sources */,
+				B03B6C901E2777CD00D279B8 /* NIPModelHttpResponse.m in Sources */,
+				0732F3CE1E139FDD00A74C01 /* NIPPhotoPreviewViewController.m in Sources */,
+				B03B6C691E2777CD00D279B8 /* NIPChineseToPinyinResource.m in Sources */,
+				B03B6CBB1E2777CD00D279B8 /* NIPSwipeOptionView.m in Sources */,
+				B03B6C8E1E2777CD00D279B8 /* NIPHttpResponse.m in Sources */,
+				0732F3B51E139F2F00A74C01 /* NIPProductService.m in Sources */,
+				B03B6CB31E2777CD00D279B8 /* NIPPlaceholderLabel.m in Sources */,
+				B03B6C7B1E2777CD00D279B8 /* NIPQueuedTask.m in Sources */,
+				B03B6C6A1E2777CD00D279B8 /* NIPHanyuPinyinOutputFormat.m in Sources */,
+				0732F3981E139E6200A74C01 /* NIPHomeViewController.m in Sources */,
+				B03B6CB81E2777CD00D279B8 /* NIPSortSegmentView.m in Sources */,
+				B03B6CB91E2777CD00D279B8 /* NIPStateButton.m in Sources */,
+				B05D0CAC1DE3F36800495172 /* NIPCommonUtil.m in Sources */,
+				B002E6511E2767B6006D5CB8 /* NSString+URS.m in Sources */,
+				B03B6C741E2777CD00D279B8 /* NIPFileService.m in Sources */,
+				B05F24861E7A3F37004D59B3 /* NIPURLHandler.m in Sources */,
+				B03B6CB01E2777CD00D279B8 /* NIPLabelView.m in Sources */,
+				DC9398AC1EB0C22D0077D5F8 /* NIPFingerRecognizerManager.m in Sources */,
+				B03B6CB21E2777CD00D279B8 /* NIPointIndicator.m in Sources */,
+				B03B6C6C1E2777CD00D279B8 /* NIPinyinHelper.m in Sources */,
+				B03B6CBA1E2777CD00D279B8 /* NIPStatusBar.m in Sources */,
+				B03B6C981E2777CD00D279B8 /* NIPActionSheet.m in Sources */,
+				B03B6C861E2777CD00D279B8 /* NIPSlideViewController.m in Sources */,
+				B03B6C681E2777CD00D279B8 /* UILocalNotification+NIPBasicAdditions.m in Sources */,
+				B03B6CAC1E2777CD00D279B8 /* NIPControl.m in Sources */,
+				0732F3CC1E139FDD00A74C01 /* NIPNumblerLabel.m in Sources */,
+				B03B6C881E2777CD00D279B8 /* NIPHttpRequestService.m in Sources */,
+				B03B6C9A1E2777CD00D279B8 /* NIPCustomAlertBase.m in Sources */,
+				B03B6C8A1E2777CD00D279B8 /* NIPHttpsValidator.m in Sources */,
+				B03B6C671E2777CD00D279B8 /* UIDevice+NIPBasicAdditions.m in Sources */,
+				07ADB6F71D955BD000766E57 /* NSIPPageURLsDataset.m in Sources */,
+				B03B6C841E2777CD00D279B8 /* NIPContainerViewController.m in Sources */,
+				B03B6CA11E2777CD00D279B8 /* NIPVerticalLayout.m in Sources */,
+				B03B6C851E2777CD00D279B8 /* NIPNavigationController.m in Sources */,
+				B002E6521E2767B6006D5CB8 /* UIDevice+URS.m in Sources */,
+				0732F3C91E139FDD00A74C01 /* NIPAlbumInfo.m in Sources */,
+				B002E6531E2767B6006D5CB8 /* URSAuth.m in Sources */,
+				07ADB6DB1D95259F00766E57 /* NIPURLHandler+ComponentsDemo.m in Sources */,
+				B03B6C801E2777CD00D279B8 /* NIPUtilsFactory.m in Sources */,
+				B03B6C891E2777CD00D279B8 /* NIPHTTPSessionManager.m in Sources */,
+				DC731D221F2A0F24001885E6 /* NIPNotificationSettingManger.m in Sources */,
+				B03B6C991E2777CD00D279B8 /* NIPAlertView.m in Sources */,
+				B03B6C731E2777CD00D279B8 /* NIPCocoaSecurity.m in Sources */,
+				B03B6CBF1E2777CD00D279B8 /* NIPTextFormView.m in Sources */,
+				B03B6C701E2777CD00D279B8 /* NIPAction.m in Sources */,
+				0732F3B31E139F2F00A74C01 /* NIPPartnerGoodsResponse.m in Sources */,
+				B08C98BB1DF93C580064B4F2 /* NIPUrlFactory.m in Sources */,
+				B03B6C871E2777CD00D279B8 /* NIPIntrospector.m in Sources */,
+				B03B6C751E2777CD00D279B8 /* NIPImageFactory.m in Sources */,
+				B03B6C761E2777CD00D279B8 /* NIPKeychain.m in Sources */,
+				B03B6C7D1E2777CD00D279B8 /* NIPSoundManager.m in Sources */,
+				B03B6CA31E2777CD00D279B8 /* NIPopupMaskView.m in Sources */,
+				0732F3C81E139FDD00A74C01 /* NIPAlbumCell.m in Sources */,
+				B03B6CBC1E2777CD00D279B8 /* NIPSwitchView.m in Sources */,
+				B03B6C931E2777CD00D279B8 /* UIColor+NIPBasicAdditions.m in Sources */,
+				B03B6C9F1E2777CD00D279B8 /* NIPHorizontalLayout.m in Sources */,
+				B002E6541E2767B6006D5CB8 /* URSRequest.m in Sources */,
+				B03B6C951E2777CD00D279B8 /* UILabel+NIPBasicAdditions.m in Sources */,
+				B03B6CC11E2777CD00D279B8 /* NIPTimePicker.m in Sources */,
+				B049C0181FD7ECC9008C97FC /* NIPIconFontService.m in Sources */,
+				B03B6CC21E2777CD00D279B8 /* NIPView.m in Sources */,
+				B03B6C9C1E2777CD00D279B8 /* NIPScrollContainer.m in Sources */,
+				B03B6CA91E2777CD00D279B8 /* NIPActivityIndicator.m in Sources */,
+				B05F24341E779396004D59B3 /* NIPEdgeInsetsLabel.m in Sources */,
+				074BE9CD1DB0C7DE00AEAFAC /* NIPWebToolBar.m in Sources */,
+				0732F3CD1E139FDD00A74C01 /* NIPPhotoCell.m in Sources */,
+				B03B6CA61E2777CD00D279B8 /* nip_ui_geometry.m in Sources */,
+				B03B6CAB1E2777CD00D279B8 /* NIPCheckBoxView.m in Sources */,
+				B03B6CA41E2777CD00D279B8 /* NIPopupToastView.m in Sources */,
+				AF44B7511E9DC35C00484305 /* UIImage+NIPLoadBundleImage.m in Sources */,
+				B051AEE31DF80049003944A9 /* NIPMyBaseViewController.m in Sources */,
+				B03B6C6E1E2777CD00D279B8 /* NSString+NIPPinYin4Cocoa.m in Sources */,
+				B0B7F8691E02369000E65AA9 /* NIPImageFactoryChild.m in Sources */,
+				B03B6CB51E2777CD00D279B8 /* NIPScreenTipView.m in Sources */,
+				07ADB69C1D93CE1300766E57 /* AppDelegate.m in Sources */,
+				B03B6C711E2777CD00D279B8 /* NIPagedArray.m in Sources */,
+				B03B6CA81E2777CD00D279B8 /* NIPActivityButton.m in Sources */,
+				B03B6C791E2777CD00D279B8 /* NIPLocalSettings.m in Sources */,
+				B03B6C9E1E2777CD00D279B8 /* NIPGridLayout.m in Sources */,
+				0732F3CF1E139FDD00A74C01 /* NIPPhotosViewController.m in Sources */,
+				B03B6C961E2777CD00D279B8 /* UIResponder+NIPBasicAdditions.m in Sources */,
+				B03B6C6B1E2777CD00D279B8 /* NIPinyinFormatter.m in Sources */,
+				B03B6C7C1E2777CD00D279B8 /* NIPSectionModel.m in Sources */,
+				0732F3B61E139F2F00A74C01 /* NIPBaseService.m in Sources */,
+				B03B6CA01E2777CD00D279B8 /* NIPLayoutBase.m in Sources */,
+				B03B6C831E2777CD00D279B8 /* NIPBaseViewController.m in Sources */,
+				B03B6C7E1E2777CD00D279B8 /* NIPTaskQueue.m in Sources */,
+				B03B6C7F1E2777CD00D279B8 /* NIPTimer.m in Sources */,
+				B03B6CAA1E2777CD00D279B8 /* NIPageScrollView.m in Sources */,
+				B03B6C821E2777CD00D279B8 /* NIPAppTabBarController.m in Sources */,
+				B03B6CA21E2777CD00D279B8 /* NIPopupBase.m in Sources */,
+				B03B6C8D1E2777CD00D279B8 /* NIPCoderUtil.m in Sources */,
+				0762B73E1EFA5040004A2D61 /* NIPUserViewController.m in Sources */,
+				DC9398A91EB0C1E90077D5F8 /* NIPKeyboardManager.m in Sources */,
+				B03B6CA71E2777CD00D279B8 /* NIPInputViewTranslator.m in Sources */,
+				07ADB6ED1D95323D00766E57 /* NIPConfigFileUpdateService.m in Sources */,
+				B03B6C621E2777CD00D279B8 /* NSDate+NIPBasicAdditions.m in Sources */,
+				B03B6C811E2777CD00D279B8 /* NIPUrlControllerRouter.m in Sources */,
+				07ADB6991D93CE1300766E57 /* main.m in Sources */,
+				B03B6CB71E2777CD00D279B8 /* NIPSeparatorView.m in Sources */,
+				B03B6CB41E2777CD00D279B8 /* NIProgressView.m in Sources */,
+				B03B6C941E2777CD00D279B8 /* UIImage+NIPBasicAdditions.m in Sources */,
+				07245ADB1E0B733200C8F641 /* NIPVersionUpdater.m in Sources */,
+				B03B6CB11E2777CD00D279B8 /* NIPLayoutLabel.m in Sources */,
+				B03B6C641E2777CD00D279B8 /* NSDictionary+NIPBasicAdditions.m in Sources */,
+				074BE9CA1DB0BF1D00AEAFAC /* NIPWebNavigationController.m in Sources */,
+				B03B6C771E2777CD00D279B8 /* NIPKeyValue.m in Sources */,
+				B03B6C7A1E2777CD00D279B8 /* NIPNotificationManager.m in Sources */,
+				B03B6C781E2777CD00D279B8 /* NIPLocalCacheBase.m in Sources */,
+				B03B6C9B1E2777CD00D279B8 /* NIPScreenTipWindow.m in Sources */,
+				B03B6CC31E2777CD00D279B8 /* NIPUIFactory.m in Sources */,
+				B03B6C601E2777CD00D279B8 /* NSArray+NIPBasicAdditions.m in Sources */,
+				B03B6C9D1E2777CD00D279B8 /* NIPTableContainerView.m in Sources */,
+				B03B6C8F1E2777CD00D279B8 /* NIPJSONHttpResponse.m in Sources */,
+				07245AF11E0B750900C8F641 /* NIPLoginSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ADB6A91D93CE1300766E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ADB6B21D93CE1300766E57 /* NSIPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ADB6B41D93CE1300766E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ADB6BD1D93CE1300766E57 /* NSIPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07ADB6AF1D93CE1300766E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07ADB6931D93CE1300766E57 /* NSIP */;
+			targetProxy = 07ADB6AE1D93CE1300766E57 /* PBXContainerItemProxy */;
+		};
+		07ADB6BA1D93CE1300766E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07ADB6931D93CE1300766E57 /* NSIP */;
+			targetProxy = 07ADB6B91D93CE1300766E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07ADB6A51D93CE1300766E57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07ADB6A61D93CE1300766E57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07ADB6BF1D93CE1300766E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07ADB6C01D93CE1300766E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07ADB6C21D93CE1300766E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359A65E232F06B1710E0F8A1 /* Pods-NSIP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_HEADERS_RUN_UNIFDEF = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShareKit/QQ_SDK_v3.1",
+					"$(PROJECT_DIR)/Libraries/ShareKit/QQ_SDK_v3.1",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NSIP/main/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AspectsV1.4.2\"",
+					"\"${PODS_ROOT}/Headers/Public/PureLayout\"",
+					"\"${PODS_ROOT}/Headers/Public/ZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/JLRoutes\"",
+					"\"${PODS_ROOT}/Headers/Public/JSONKit-NoWarning\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengUShare\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleProtobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/FDFullscreenPopGesture\"",
+					"\"${PODS_ROOT}/Headers/Public/LDSocketPushClient\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+				);
+				INFOPLIST_FILE = "NSIP/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShareKit/WeChatSDK",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShareKit/YixinSDK",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShareKit/libWeiboSDK",
+					"$(PROJECT_DIR)/Libraries/ShareKit/libWeiboSDK",
+					"$(PROJECT_DIR)/Libraries/ShareKit/WeChatSDK",
+					"$(PROJECT_DIR)/Libraries/ShareKit/YixinSDK",
+				);
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lede.NSIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		07ADB6C31D93CE1300766E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276B6E3724F8899381D52DB4 /* Pods-NSIP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_HEADERS_RUN_UNIFDEF = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShareKit/QQ_SDK_v3.1",
+					"$(PROJECT_DIR)/Libraries/ShareKit/QQ_SDK_v3.1",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NSIP/main/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AspectsV1.4.2\"",
+					"\"${PODS_ROOT}/Headers/Public/PureLayout\"",
+					"\"${PODS_ROOT}/Headers/Public/ZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/JLRoutes\"",
+					"\"${PODS_ROOT}/Headers/Public/JSONKit-NoWarning\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengUShare\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleProtobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/FDFullscreenPopGesture\"",
+					"\"${PODS_ROOT}/Headers/Public/LDSocketPushClient\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+				);
+				INFOPLIST_FILE = "NSIP/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShareKit/WeChatSDK",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShareKit/YixinSDK",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShareKit/libWeiboSDK",
+					"$(PROJECT_DIR)/Libraries/ShareKit/libWeiboSDK",
+					"$(PROJECT_DIR)/Libraries/ShareKit/WeChatSDK",
+					"$(PROJECT_DIR)/Libraries/ShareKit/YixinSDK",
+				);
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lede.NSIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		07ADB6C51D93CE1300766E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NSIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lede.NSIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSIP.app/NSIP";
+			};
+			name = Debug;
+		};
+		07ADB6C61D93CE1300766E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NSIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lede.NSIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSIP.app/NSIP";
+			};
+			name = Release;
+		};
+		07ADB6C81D93CE1300766E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NSIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lede.NSIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSIP;
+			};
+			name = Debug;
+		};
+		07ADB6C91D93CE1300766E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NSIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lede.NSIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSIP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07ADB68F1D93CE1300766E57 /* Build configuration list for PBXProject "NSIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ADB6BF1D93CE1300766E57 /* Debug */,
+				07ADB6C01D93CE1300766E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07ADB6C11D93CE1300766E57 /* Build configuration list for PBXNativeTarget "NSIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ADB6C21D93CE1300766E57 /* Debug */,
+				07ADB6C31D93CE1300766E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07ADB6C41D93CE1300766E57 /* Build configuration list for PBXNativeTarget "NSIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ADB6C51D93CE1300766E57 /* Debug */,
+				07ADB6C61D93CE1300766E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07ADB6C71D93CE1300766E57 /* Build configuration list for PBXNativeTarget "NSIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ADB6C81D93CE1300766E57 /* Debug */,
+				07ADB6C91D93CE1300766E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07ADB68C1D93CE1300766E57 /* Project object */;
+}
