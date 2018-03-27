@@ -848,8 +848,6 @@
 		07ADB6D51D95250300766E57 /* URLHanlder */ = {
 			isa = PBXGroup;
 			children = (
-				B05F24841E7A3F37004D59B3 /* NIPURLHandler.h */,
-				B05F24851E7A3F37004D59B3 /* NIPURLHandler.m */,
 				07ADB6D91D95259F00766E57 /* NIPURLHandler+ComponentsDemo.h */,
 				07ADB6DA1D95259F00766E57 /* NIPURLHandler+ComponentsDemo.m */,
 				07ADB6E31D952CCF00766E57 /* NIPURLRouter.h */,
@@ -992,6 +990,8 @@
 		B03B6B7F1E2777CD00D279B8 /* nip_basic_utils */ = {
 			isa = PBXGroup;
 			children = (
+				B05F24841E7A3F37004D59B3 /* NIPURLHandler.h */,
+				B05F24851E7A3F37004D59B3 /* NIPURLHandler.m */,
 				B049C0161FD7ECC8008C97FC /* NIPIconFontService.h */,
 				B049C0171FD7ECC8008C97FC /* NIPIconFontService.m */,
 				B03B6B921E2777CD00D279B8 /* NIPAction.h */,
