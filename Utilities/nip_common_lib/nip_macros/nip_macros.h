@@ -81,6 +81,10 @@ _Pragma("clang diagnostic pop") \
 #define LOG_DEALLOC
 #endif
 
+#pragma mark 时间间隔
+#define NIP_TIME_BEGIN NSDate *startTime = [NSDate date]
+#define NIP_TIME_END NSLog(@"时间间隔: %f", -[startTime timeIntervalSinceNow])
+
 #pragma mark alert
 #define CHECK_AND_ALERT(condition,message) if(!(condition)) {alertMessage(nil,message);return;}
 
@@ -106,5 +110,4 @@ _Pragma("clang diagnostic pop") \
 #pragma mark SIZE
 #define CENTER_POINT_OF_RECT(rect) CGPointMake(CGRectGetMidX(rect), CGRectGetMidY(rect))
 #define LENGTH_RELATIVE_667(x) (x*([[UIScreen mainScreen] bounds].size.width)/667.f)
-
 
