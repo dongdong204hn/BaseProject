@@ -170,6 +170,10 @@
     return cString;
 }
 
++ (CGFloat)batteryLevel {
+    return [[UIDevice currentDevice] batteryLevel];
+}
+
 #pragma mark - Private Methods
 
 

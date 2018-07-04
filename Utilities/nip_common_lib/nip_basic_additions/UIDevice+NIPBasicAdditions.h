@@ -44,4 +44,7 @@
  */
 + (NSString *)getChannelString;
 
+/// 电量
++ (CGFloat)batteryLevel;
+
 @end
