@@ -23,3 +23,4 @@
 #import "NIPIntrospector.h"
 #import "nip_pinyin.h"
 #import "NIPURLHandler.h"
+#import "NIPWeakPropHelper.h"

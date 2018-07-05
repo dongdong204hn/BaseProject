@@ -159,6 +159,7 @@
 		B0B7F8691E02369000E65AA9 /* NIPImageFactoryChild.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B7F8681E02369000E65AA9 /* NIPImageFactoryChild.m */; };
 		B0B7F86A1E0236B900E65AA9 /* NIPUIFactoryChild.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B7F8651E0235E200E65AA9 /* NIPUIFactoryChild.m */; };
 		B0CA9CDB1E01773F001B8F09 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CA9CDA1E01773F001B8F09 /* AudioToolbox.framework */; };
+		B0D8B43820EDD0C90016FABA /* NIPWeakPropHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D8B43720EDD0C90016FABA /* NIPWeakPropHelper.m */; };
 		DC731D221F2A0F24001885E6 /* NIPNotificationSettingManger.m in Sources */ = {isa = PBXBuildFile; fileRef = DC731D211F2A0F24001885E6 /* NIPNotificationSettingManger.m */; };
 		DC9398A91EB0C1E90077D5F8 /* NIPKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9398A81EB0C1E90077D5F8 /* NIPKeyboardManager.m */; };
 		DC9398AC1EB0C22D0077D5F8 /* NIPFingerRecognizerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9398AB1EB0C22D0077D5F8 /* NIPFingerRecognizerManager.m */; };
@@ -498,6 +499,8 @@
 		B0B7F8671E02369000E65AA9 /* NIPImageFactoryChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPImageFactoryChild.h; sourceTree = "<group>"; };
 		B0B7F8681E02369000E65AA9 /* NIPImageFactoryChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPImageFactoryChild.m; sourceTree = "<group>"; };
 		B0CA9CDA1E01773F001B8F09 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B0D8B43620EDD0C80016FABA /* NIPWeakPropHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPWeakPropHelper.h; sourceTree = "<group>"; };
+		B0D8B43720EDD0C90016FABA /* NIPWeakPropHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPWeakPropHelper.m; sourceTree = "<group>"; };
 		DC731D201F2A0F24001885E6 /* NIPNotificationSettingManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPNotificationSettingManger.h; sourceTree = "<group>"; };
 		DC731D211F2A0F24001885E6 /* NIPNotificationSettingManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPNotificationSettingManger.m; sourceTree = "<group>"; };
 		DC9398A71EB0C1E90077D5F8 /* NIPKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPKeyboardManager.h; sourceTree = "<group>"; };
@@ -990,13 +993,13 @@
 		B03B6B7F1E2777CD00D279B8 /* nip_basic_utils */ = {
 			isa = PBXGroup;
 			children = (
+				B03B6B801E2777CD00D279B8 /* nip_basic_utils.h */,
 				B05F24841E7A3F37004D59B3 /* NIPURLHandler.h */,
 				B05F24851E7A3F37004D59B3 /* NIPURLHandler.m */,
 				B049C0161FD7ECC8008C97FC /* NIPIconFontService.h */,
 				B049C0171FD7ECC8008C97FC /* NIPIconFontService.m */,
 				B03B6B921E2777CD00D279B8 /* NIPAction.h */,
 				B03B6B931E2777CD00D279B8 /* NIPAction.m */,
-				B03B6B801E2777CD00D279B8 /* nip_basic_utils.h */,
 				B049C0091FD6A730008C97FC /* NIPBase64Transcoder.c */,
 				B049C00A1FD6A731008C97FC /* NIPBase64Transcoder.h */,
 				B03B6B811E2777CD00D279B8 /* nip_pinyin */,
@@ -1032,6 +1035,8 @@
 				DC9398AB1EB0C22D0077D5F8 /* NIPFingerRecognizerManager.m */,
 				B03B6BC71E2777CD00D279B8 /* NIPIntrospector.h */,
 				B03B6BC81E2777CD00D279B8 /* NIPIntrospector.m */,
+				B0D8B43620EDD0C80016FABA /* NIPWeakPropHelper.h */,
+				B0D8B43720EDD0C90016FABA /* NIPWeakPropHelper.m */,
 			);
 			path = nip_basic_utils;
 			sourceTree = "<group>";
@@ -1557,6 +1562,7 @@
 				B03B6C611E2777CD00D279B8 /* NSData+NIPBasicAdditions.m in Sources */,
 				B051AEF01DF80FBD003944A9 /* UIViewController+TopMostViewController.m in Sources */,
 				B03B6CAD1E2777CD00D279B8 /* NIPDatePicker.m in Sources */,
+				B0D8B43820EDD0C90016FABA /* NIPWeakPropHelper.m in Sources */,
 				0732F3CB1E139FDD00A74C01 /* NIPAlbumToolbarView.m in Sources */,
 				B03B6CBE1E2777CD00D279B8 /* NIPTextField.m in Sources */,
 				B03B6CB61E2777CD00D279B8 /* NIPSegmentView.m in Sources */,
