@@ -827,7 +827,7 @@ static short val[] = {
 }
 
 - (BOOL)containRarelyUsedWordByEncodeGB2312 {
-    if (!notEmptyString(self)) {
+    if (!NOT_EMPTY_STRING(self)) {
         return NO;
     }
     NSRegularExpression *reg = [NSRegularExpression regularExpressionWithPattern:@"[\\u4e00-\\u9fa5]+" options:0 error:nil];
@@ -837,7 +837,7 @@ static short val[] = {
         chineseStr = [self substringWithRange:range];
     }
     
-    if (!notEmptyString(chineseStr)) {
+    if (!NOT_EMPTY_STRING(chineseStr)) {
         return NO;
     }
     NSInteger i = chineseStr.length;
@@ -847,7 +847,7 @@ static short val[] = {
         word = [chineseStr substringWithRange:NSMakeRange(i - 1, 1)];
         words = [[word encodeGB2312] componentsSeparatedByString:@"%"];
         //检查编码范围
-        if (notEmptyArray(words) && 3 == words.count) {
+        if (NOT_EMPTY_ARRAY(words) && 3 == words.count) {
             UInt64 mac1 =  strtoul([words[1] UTF8String], 0, 16);
             if (mac1 < strtoul([@"B0" UTF8String], 0, 16) || mac1 > strtoul([@"F7" UTF8String], 0, 16)) {
                 return YES;
@@ -874,7 +874,7 @@ static short val[] = {
 
 - (NSString *)abbrAccount {
     NSString *abbrString = nil;
-    if (notEmptyString(self)) {
+    if (NOT_EMPTY_STRING(self)) {
         if (self.length < 19) {
             abbrString = self;
         } else {
@@ -911,7 +911,7 @@ static short val[] = {
         text = [self substringWithRange:NSMakeRange(6, 6)];
         text = [text stringByAppendingString:@"19"];
     }
-    if (notEmptyString(text)) {
+    if (NOT_EMPTY_STRING(text)) {
         return [formater dateFromString:text];
     }
     return nil;

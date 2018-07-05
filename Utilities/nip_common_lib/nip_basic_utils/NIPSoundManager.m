@@ -45,7 +45,7 @@
 
 - (void)playSoundWithFileName:(NSString *)soundFileName
 {
-    if (notEmptyString(soundFileName)) {
+    if (NOT_EMPTY_STRING(soundFileName)) {
         NSNumber * soundId = [_soundType2Id validObjectForKey:soundFileName];
         if (soundId) {
             AudioServicesPlaySystemSound([soundId unsignedIntValue]);
@@ -75,7 +75,7 @@
 
 - (void)registerSoundWithFileName:(NSString *)fileName
 {
-    if (!notEmptyString(fileName)) {
+    if (!NOT_EMPTY_STRING(fileName)) {
         return;
     }
     NSArray *components = [fileName componentsSeparatedByString:@"."];

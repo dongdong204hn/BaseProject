@@ -54,7 +54,7 @@ static inline NSString* cachePathForKey(NSString* directory, NSString* key) {
     }
     
     NSDictionary *dataMap=(NSDictionary *)[self cachedObjectForKey:kCacheKeyForUnicode2Pinyin];
-    if (notEmptyDictionary(dataMap)) {
+    if (NOT_EMPTY_DICTIONARY(dataMap)) {
         self->_unicodeToHanyuPinyinTable=dataMap;
     }else{
         NSString *resourceName =[[NSBundle mainBundle] pathForResource:@"unicode_to_hanyu_pinyin" ofType:@"txt"];

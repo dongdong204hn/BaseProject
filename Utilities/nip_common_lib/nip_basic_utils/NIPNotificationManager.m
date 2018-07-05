@@ -74,7 +74,7 @@
     UIApplication *app = [UIApplication sharedApplication];
     //获取本地推送数组
     NSArray *localArray = [app scheduledLocalNotifications];
-    if (notEmptyArray(localArray)) {
+    if (NOT_EMPTY_ARRAY(localArray)) {
         for (UILocalNotification *noti in localArray) {
             NSDictionary *dict = noti.userInfo;
             if (dict) {

@@ -115,7 +115,7 @@
         NSString *fileName;
         while (fileName = [childFilesEnumerator nextObject]) {
             NSString *fileAbsolutePath = [folderPath stringByAppendingPathComponent:fileName];
-            if (!notEmptyArray([manager subpathsAtPath:fileAbsolutePath])) {
+            if (!NOT_EMPTY_ARRAY([manager subpathsAtPath:fileAbsolutePath])) {
                 folderSize += [self fileSizeAtPath:fileAbsolutePath];
             }
         }

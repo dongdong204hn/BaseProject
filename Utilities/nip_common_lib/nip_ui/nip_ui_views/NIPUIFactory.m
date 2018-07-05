@@ -277,7 +277,7 @@
 ///----------------------------------
 + (UIColor *)colorWithHexString:(NSString *)str
 {
-    if (!notEmptyString(str) || ![str containsSubstring:@"#"] || str.length != 7) {
+    if (!NOT_EMPTY_STRING(str) || ![str containsSubstring:@"#"] || str.length != 7) {
         return nil;
     }
     unsigned red, green, blue;

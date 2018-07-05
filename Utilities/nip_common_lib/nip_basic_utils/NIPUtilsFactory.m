@@ -41,11 +41,11 @@ static NSString * const kNipUuid = @"kNipUuid";
     //    return @"debug_ios_simulator";
     //#else
     uuid = [NIPLocalSettings settings].uuid;
-    if (notEmptyString(uuid)) {
+    if (NOT_EMPTY_STRING(uuid)) {
         return uuid;
     }
     uuid = [NIPKeychain findKeychain:kNipUuid];
-    if (notEmptyString(uuid)) {
+    if (NOT_EMPTY_STRING(uuid)) {
         [NIPLocalSettings settings].uuid = uuid;
         return uuid;
     }
@@ -63,11 +63,11 @@ static NSString * const kNipUuid = @"kNipUuid";
     //    return @"debug_ios_simulator";
     //#else
     idfv = [NIPLocalSettings settings].idfv;
-    if (notEmptyString(idfv)) {
+    if (NOT_EMPTY_STRING(idfv)) {
         return idfv;
     }
     idfv = [NIPKeychain findKeychain:kNipUuid];
-    if (notEmptyString(idfv)) {
+    if (NOT_EMPTY_STRING(idfv)) {
         [NIPLocalSettings settings].uuid = idfv;
         return idfv;
     }
@@ -85,11 +85,11 @@ static NSString * const kNipUuid = @"kNipUuid";
     //    return @"debug_ios_simulator";
     //#else
     idfa = [NIPLocalSettings settings].idfa;
-    if (notEmptyString(idfa)) {
+    if (NOT_EMPTY_STRING(idfa)) {
         return idfa;
     }
     idfa = [NIPKeychain findKeychain:kNipIdfa];
-    if (notEmptyString(idfa)) {
+    if (NOT_EMPTY_STRING(idfa)) {
         [NIPLocalSettings settings].idfa = idfa;
         return idfa;
     }

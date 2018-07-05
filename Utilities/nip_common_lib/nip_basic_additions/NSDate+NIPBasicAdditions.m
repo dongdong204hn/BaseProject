@@ -463,12 +463,12 @@
     NSDateComponents *dateComponents= [calendar components:desiredComponents fromDate:self];
     // 优先查询农历节日
     NSString *temp = [self festivalNameByDateComponents:chinaDateComponents andChineseFlag:YES];
-    if (notEmptyString(temp)) {
+    if (NOT_EMPTY_STRING(temp)) {
         festivalName = temp;
     } else {
         // 查询公历节日
         temp = [self festivalNameByDateComponents:dateComponents andChineseFlag:NO];
-        if (notEmptyString(temp)) {
+        if (NOT_EMPTY_STRING(temp)) {
             festivalName = temp;
         } else {
             // 判断是否“除夕”
@@ -481,7 +481,7 @@
             }
         }
     }
-    if (!notEmptyString(festivalName)) {
+    if (!NOT_EMPTY_STRING(festivalName)) {
         if (chinaDateComponents.day == 1) {
             // 每月初一，显示农历月份
             festivalName = [self chineseMonthNameByMonthIndex:chinaDateComponents.month];

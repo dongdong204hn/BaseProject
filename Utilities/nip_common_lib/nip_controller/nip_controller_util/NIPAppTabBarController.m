@@ -237,7 +237,7 @@
     if (hightlightedIndex != self.selectedIndex) {
         UIImageView *iconImageView;
         UILabel *tabBarItemTitleLabel;
-        if (notEmptyArray(_tabIconImagesArray) && notEmptyArray(_tabTitleLabelsArray)) {
+        if (NOT_EMPTY_ARRAY(_tabIconImagesArray) && NOT_EMPTY_ARRAY(_tabTitleLabelsArray)) {
             if (self.selectedIndex != NSNotFound) {
                 iconImageView = [_tabIconImagesArray objectAtIndex:self.selectedIndex];
                 tabBarItemTitleLabel = [_tabTitleLabelsArray objectAtIndex:self.selectedIndex];
