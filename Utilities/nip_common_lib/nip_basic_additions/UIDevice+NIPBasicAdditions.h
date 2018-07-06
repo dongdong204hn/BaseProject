@@ -33,10 +33,10 @@
  */
 + (NSString *)deviceModel;
 
-//! @return 处理器指令集类型，eg:x86_64
+/// @return 处理器指令集类型，eg:x86_64
 + (NSString *)getProcessorInfo;
 
-//! @return 获取设备名称 eg:iPhone 6 (A1549/A1586)
+/// @return 获取设备名称 eg:iPhone 6 (A1549/A1586)
 + (NSString *)getDeviceName;
 
 /**

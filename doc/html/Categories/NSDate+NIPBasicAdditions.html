@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>NSDate(NIPBasicAdditions) Category Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">BaseProject </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">song</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/dateWithString:dateFormat:">+ dateWithString:dateFormat:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/ageFromBirthday">- ageFromBirthday</option>
+		
+		<option value="//api/name/chnDescByFlag:">- chnDescByFlag:</option>
+		
+		<option value="//api/name/dayIntervalToDate:">- dayIntervalToDate:</option>
+		
+		<option value="//api/name/festivalName">- festivalName</option>
+		
+		<option value="//api/name/isSameDayWithDate:">- isSameDayWithDate:</option>
+		
+		<option value="//api/name/isTypicallyWeekend">- isTypicallyWeekend</option>
+		
+		<option value="//api/name/isTypicallyWorkday">- isTypicallyWorkday</option>
+		
+		<option value="//api/name/stringWithDateFormat:">- stringWithDateFormat:</option>
+		
+		<option value="//api/name/trimDateOffTime">- trimDateOffTime</option>
+		
+		<option value="//api/name/weekdayChn">- weekdayChn</option>
+		
+		<option value="//api/name/weekdayIndex">- weekdayIndex</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">NSDate(NIPBasicAdditions) Category Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>NSDate+NIPBasicAdditions.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>NSDate NTBasicAdditions</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/dateWithString:dateFormat:" title="dateWithString:dateFormat:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dateWithString:dateFormat:">+&nbsp;dateWithString:dateFormat:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>将string按照给定的日期格式转化成NSDate对象.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSDate *)dateWithString:(NSString *)<em>string</em> dateFormat:(NSString *)<em>dateFormat</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>string</code></th>
+						<td><p>要转化成NSDate的字符串.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>dateFormat</code></th>
+						<td><p>string的日期格式.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>若string和格式与dateFormat相符, 返回对应NSDate对象; 若string格式与dateFormat不符, 返回nil.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>将string按照给定的日期格式转化成NSDate对象.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trimDateOffTime" title="trimDateOffTime"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trimDateOffTime">&ndash;&nbsp;trimDateOffTime</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>从完整的时间中提取出日期</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSDate *)trimDateOffTime</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>从完整的时间中提取出日期</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isSameDayWithDate:" title="isSameDayWithDate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isSameDayWithDate:">&ndash;&nbsp;isSameDayWithDate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>判断与给定日期是否是同一天.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isSameDayWithDate:(NSDate *)<em>date</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>判断与给定日期是否是同一天.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isTypicallyWorkday" title="isTypicallyWorkday"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isTypicallyWorkday">&ndash;&nbsp;isTypicallyWorkday</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>是否工作日</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isTypicallyWorkday</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>是否工作日</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isTypicallyWeekend" title="isTypicallyWeekend"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isTypicallyWeekend">&ndash;&nbsp;isTypicallyWeekend</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>是否周末</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isTypicallyWeekend</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>是否周末</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stringWithDateFormat:" title="stringWithDateFormat:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stringWithDateFormat:">&ndash;&nbsp;stringWithDateFormat:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>转化成具有给定日期格式的字符串.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)stringWithDateFormat:(NSString *)<em>dateFormat</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>转化成具有给定日期格式的字符串.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/chnDescByFlag:" title="chnDescByFlag:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/chnDescByFlag:">&ndash;&nbsp;chnDescByFlag:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>根据flag返回当前日期对应的中文。 flag 1:今天、明天、后天 2:当日、次日、第三日、第四日</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)chnDescByFlag:(NSInteger)<em>flag</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>根据flag返回当前日期对应的中文。 flag 1:今天、明天、后天 2:当日、次日、第三日、第四日</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/weekdayChn" title="weekdayChn"></a>
+	<h3 class="method-title"><code><a href="#//api/name/weekdayChn">&ndash;&nbsp;weekdayChn</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>返回当前是星期几，中文:一~七</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)weekdayChn</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>返回当前是星期几，中文:一~七</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/festivalName" title="festivalName"></a>
+	<h3 class="method-title"><code><a href="#//api/name/festivalName">&ndash;&nbsp;festivalName</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取对应的节日名</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)festivalName</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取对应的节日名</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dayIntervalToDate:" title="dayIntervalToDate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dayIntervalToDate:">&ndash;&nbsp;dayIntervalToDate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>与toDate之间间隔的天数</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSInteger)dayIntervalToDate:(NSDate *)<em>toDate</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>与toDate之间间隔的天数</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/weekdayIndex" title="weekdayIndex"></a>
+	<h3 class="method-title"><code><a href="#//api/name/weekdayIndex">&ndash;&nbsp;weekdayIndex</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>返回当前是星期几，数字形式:1~7</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSInteger)weekdayIndex</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>返回当前是星期几，数字形式:1~7</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/ageFromBirthday" title="ageFromBirthday"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ageFromBirthday">&ndash;&nbsp;ageFromBirthday</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>从身份证号码中提取年龄</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSInteger)ageFromBirthday</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>从身份证号码中提取年龄</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSDate+NIPBasicAdditions.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 song. All rights reserved. Updated: 2018-07-06</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

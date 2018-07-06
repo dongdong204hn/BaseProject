@@ -23,7 +23,7 @@
 
 
 #pragma mark - CocoaSecurity
-//! 封装多种加密算法
+/// 封装多种加密算法
 @interface NIPCocoaSecurity : NSObject
 #pragma mark - AES Encrypt
 + (CocoaSecurityResult *)aesEncrypt:(NSString *)data key:(NSString *)key;

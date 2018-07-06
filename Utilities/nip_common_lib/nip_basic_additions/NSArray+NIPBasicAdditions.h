@@ -34,13 +34,13 @@
  */
 - (NSArray *)objectsConvertedBy:(id (^)(id object))convertBlock;
 
-//! 获取所有字典元素的key
+/// 获取所有字典元素的key
 - (NSArray *)keysOfPairs;
 
-//! 获取所有字典元素的value
+/// 获取所有字典元素的value
 - (NSArray *)valuesOfPairs;
 
-//! 获取keys对应的values
+/// 获取keys对应的values
 - (NSArray *)valuesOfPairsForKeys:(NSArray *)keys;
 
 @end

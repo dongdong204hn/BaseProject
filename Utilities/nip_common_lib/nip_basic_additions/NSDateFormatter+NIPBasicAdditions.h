@@ -10,37 +10,37 @@
 
 @interface NSDateFormatter (NIPBasicAdditions)
 
-//! yyyy-MM-dd HH:mm:ss
+/// yyyy-MM-dd HH:mm:ss
 + (NSDateFormatter *)defaultDateTimeFormatter;
 
-//! yyyy-MM-dd HH:mm
+/// yyyy-MM-dd HH:mm
 + (NSDateFormatter *)dateTimeNoSecondFormatter;
 
-//! yyyy年MM月dd日
+/// yyyy年MM月dd日
 + (NSDateFormatter *)chineseDateFormatter;
 
-//! MM月dd日
+/// MM月dd日
 + (NSDateFormatter *)chineseMonthDayDateFormatter;
 
-//! yyyy-MM-dd
+/// yyyy-MM-dd
 + (NSDateFormatter *)defaultDateFormatter;
 
-//! HH:mm
+/// HH:mm
 + (NSDateFormatter *)shortTimeFormatter;
 
-//! MM.dd
+/// MM.dd
 + (NSDateFormatter *)shortDateFormatter;
 
-//! MM-dd
+/// MM-dd
 + (NSDateFormatter *)shortDateFormatterHorizon;
 
-//! MMdd
+/// MMdd
 + (NSDateFormatter *)compactShortDateFormatter;
 
-//! yyyy.MM.dd
+/// yyyy.MM.dd
 + (NSDateFormatter *)shortFullDateFormatter;
 
-//! yyyy.MM.dd
+/// yyyy.MM.dd
 + (NSDateFormatter *)compactFullDateFormatter;
 
 @end

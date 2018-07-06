@@ -1376,6 +1376,8 @@
 				07ADB6921D93CE1300766E57 /* Resources */,
 				8AAC54B2E502DDFB3336E609 /* [CP] Embed Pods Frameworks */,
 				1521BF0410212C01C7C2CE5D /* [CP] Copy Pods Resources */,
+				B0D8B43B20EF5C540016FABA /* Xcode Build Number */,
+				B0D8B43C20EF5E030016FABA /* Icon Versioning */,
 			);
 			buildRules = (
 			);
@@ -1526,6 +1528,34 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSIP/Pods-NSIP-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		B0D8B43B20EF5C540016FABA /* Xcode Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Xcode Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Scripts/buildVersion.sh\"";
+		};
+		B0D8B43C20EF5E030016FABA /* Icon Versioning */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Icon Versioning";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Scripts/iconVersioning.sh\"";
 		};
 		D80FDA2F34CA2ACCB1450322 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

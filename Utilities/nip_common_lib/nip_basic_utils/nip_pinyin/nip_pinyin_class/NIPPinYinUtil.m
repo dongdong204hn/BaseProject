@@ -136,7 +136,7 @@
     return wordMatch;
 }
 
-//! 基于GB_18030_2000，暂时废弃
+/// 基于GB_18030_2000，暂时废弃
 //+ (NSString *)pinYinOfWord:(NSString *)word {
 //    if(!self || ![word length]) return nil;
 //    

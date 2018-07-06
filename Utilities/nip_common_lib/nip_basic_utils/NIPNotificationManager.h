@@ -22,7 +22,7 @@
 
 static NSString *const NTTrainPayNotificationKey = @"NTTrainPayNotificationKey";
 
-//! 构建UILocalNotification参数的块
+/// 构建UILocalNotification参数的块
 typedef void (^NTNotificationBuilderBlock)(NTNotificationBuilder *builder);
 
 /**
@@ -49,14 +49,14 @@ typedef void (^NTNotificationBuilderBlock)(NTNotificationBuilder *builder);
 @interface NIPNotificationManager (NIPCommonServiceNotificationFactory)
 
 #pragma mark localNotification
-//! 构建本地推送
+/// 构建本地推送
 + (void)createLocalNotificationWithBuilder:(NTNotificationBuilderBlock)block;
 
-//! 取消指定key的本地推送
+/// 取消指定key的本地推送
 + (void)cancelLocalNotification:(NSString *)name;
 
 #pragma mark remoteNotification
-//! 获取远程推送设置
+/// 获取远程推送设置
 + (NSInteger)remoteNotificationTypes;
 
 

@@ -37,7 +37,7 @@
  */
 + (NSDate *)dateWithString:(NSString *)string dateFormat:(NSString *)dateFormat;
 
-//! 从完整的时间中提取出日期
+/// 从完整的时间中提取出日期
 - (NSDate *)trimDateOffTime;
 
 + (NSDate *)dateTomorrow;
@@ -60,7 +60,7 @@
 - (NSDate *) dateAtStartOfDay;
 
 #pragma - mark - date compare
-//! 判断与给定日期是否是同一天.
+/// 判断与给定日期是否是同一天.
 - (BOOL)isSameDayWithDate:(NSDate *)date;
 - (BOOL)isLaterThanOrEqualTo:(NSDate*)date;
 - (BOOL)isEarlierThanOrEqualTo:(NSDate*)date;
@@ -82,30 +82,30 @@
 - (BOOL)isNextYear;
 - (BOOL)isLastYear;
 
-//! 是否工作日
+/// 是否工作日
 - (BOOL) isTypicallyWorkday;
-//! 是否周末
+/// 是否周末
 - (BOOL) isTypicallyWeekend;
 
 #pragma mark - date utils
-//! 转化成具有给定日期格式的字符串.
+/// 转化成具有给定日期格式的字符串.
 - (NSString *)stringWithDateFormat:(NSString *)dateFormat;
 //！ 获取北京时间给定日期格式的字符串。
 - (NSString *)pekingDateStringWithDateFormat:(NSString *)dateFormat;
 
-//! 根据flag返回当前日期对应的中文。 flag 1:今天、明天、后天 2:当日、次日、第三日、第四日
+/// 根据flag返回当前日期对应的中文。 flag 1:今天、明天、后天 2:当日、次日、第三日、第四日
 - (NSString *)chnDescByFlag:(NSInteger)flag;
 
-//! 返回当前是星期几，中文:一~七
+/// 返回当前是星期几，中文:一~七
 - (NSString *)weekdayChn;
 
-//! 获取对应的节日名
+/// 获取对应的节日名
 - (NSString *)festivalName;
 
-//! 与toDate之间间隔的天数
+/// 与toDate之间间隔的天数
 - (NSInteger)dayIntervalToDate:(NSDate *)toDate;
 
-//! 返回当前是星期几，数字形式:1~7
+/// 返回当前是星期几，数字形式:1~7
 - (NSInteger)weekdayIndex;
 
 - (NSInteger) minutesAfterDate: (NSDate *) aDate;
@@ -116,7 +116,7 @@
 - (NSInteger) daysBeforeDate: (NSDate *) aDate;
 - (NSInteger) distanceInDaysToDate:(NSDate *)anotherDate;
 
-//! 从身份证号码中提取年龄
+/// 从身份证号码中提取年龄
 - (NSInteger)ageFromBirthday;
 
 @end

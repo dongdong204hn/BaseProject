@@ -15,15 +15,15 @@
  */
 @interface NIPPinYinUtil : NSObject
 
-//! 获取汉字word的基本格式的拼音字符串 eg:安背驴->anbeilv
+/// 获取汉字word的基本格式的拼音字符串 eg:安背驴->anbeilv
 + (NSString *)pinYinStringSimpleOfWord:(NSString *)word;
-//! 获取汉字word的复合格式的拼音字符串 eg:安背驴->(ān)(bèi,bēi)(lǘ)
+/// 获取汉字word的复合格式的拼音字符串 eg:安背驴->(ān)(bèi,bēi)(lǘ)
 + (NSString *)pinYinStringComplexOfWord:(NSString *)word;
 
-//! 获取汉字word对应的指定格式的拼音字符串
+/// 获取汉字word对应的指定格式的拼音字符串
 + (NSString *)pinYinStringOfWord:(NSString *)word withHanyuPinyinOutputFormat:(NIPHanyuPinyinOutputFormat *)outputFormat;
 
-//! 获取汉字word对应的指定格式的拼音数组
+/// 获取汉字word对应的指定格式的拼音数组
 + (NSArray *)pinYinArrayOfWord:(NSString *)word withHanyuPinyinOutputFormat:(NIPHanyuPinyinOutputFormat *)outputFormat;
 
 //+ (NSString *)pinYinOfWord:(NSString *)word;

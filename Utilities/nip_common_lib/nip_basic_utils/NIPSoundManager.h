@@ -15,7 +15,7 @@
 
 + (instancetype)sharedInstance;
 
-//! 振动
+/// 振动
 + (void)vibrate;
 #pragma mark -
 - (void)registerSoundWithFileName:(NSString *)fileName;

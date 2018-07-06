@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-//! NIPAddition_resize
+/// NIPAddition_resize
 @interface UILabel (NIPAddition_resize)
 - (void)resizeOnContentWithConstraint:(CGSize)constraint;
 - (void)resizeHeightOnContent;

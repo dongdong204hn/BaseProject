@@ -25,7 +25,7 @@
 //类似getIvarsFromClass,不同的是会包含基类的成员变量信息
 + (NSDictionary *)getIvarsFromClassCascaded :(Class)cls;
 
-//! 进行方法交换
+/// 进行方法交换
 + (void)swizzleMethods:(Class)class originalSelector:(SEL)origSel swizzledSelector:(SEL)swizSel;
 
 @end

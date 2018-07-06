@@ -46,37 +46,37 @@
  */
 - (BOOL)isEmptyOrWhitespace;
 
-//! 判断emailAddr是否邮箱帐号
+/// 判断emailAddr是否邮箱帐号
 - (BOOL)isEmailAddress;
 
-//! 判断表达式expression是否整体符合正则表达式regex
+/// 判断表达式expression是否整体符合正则表达式regex
 - (BOOL)isMatchRegex:(NSString *)regex;
 
-//! 判断mobileNum是否手机号
+/// 判断mobileNum是否手机号
 - (BOOL)isMobileNumber;
 
-//! 判断account是否有效的用户名。当前规则：用户名由字母、数字或“_”组成，以字母开头，长度不少于6位，不多于30位
+/// 判断account是否有效的用户名。当前规则：用户名由字母、数字或“_”组成，以字母开头，长度不少于6位，不多于30位
 - (BOOL)isAccountName;
 
-//! 判断accountPwd是否有效的密码。当前规则：密码必须且只能包含字母，数字，下划线中的两种或两种以上,6-25位
+/// 判断accountPwd是否有效的密码。当前规则：密码必须且只能包含字母，数字，下划线中的两种或两种以上,6-25位
 - (BOOL)isAccountPwd;
 
-//! 判断personName是否有效的密码。当前规则：姓名必须为中文或英文，中文两个字以上，英文3个字符以上
+/// 判断personName是否有效的密码。当前规则：姓名必须为中文或英文，中文两个字以上，英文3个字符以上
 - (BOOL)isPersonName;
 
-//! 判断word是否汉字。
+/// 判断word是否汉字。
 - (BOOL)isChineseWord;
 
-//! 判断identityCard是否身份证。
+/// 判断identityCard是否身份证。
 - (BOOL)isIdentityCard;
 
-//! 通过身份证identityCard判断是否男性
+/// 通过身份证identityCard判断是否男性
 - (BOOL)isMaleByIdentityCard;
 
-//! 通过后缀判断fileName是否是图片名
+/// 通过后缀判断fileName是否是图片名
 - (BOOL)isImageFileName;
 
-//! 判断code是否是邮编。
+/// 判断code是否是邮编。
 - (BOOL)isPostalCode;
 
 #pragma mark - Encode
@@ -180,7 +180,7 @@
 
 
 #pragma mark - Extract Content With Rule
-//! 从字符串expression中匹配出符合正则表达式regex的部分
+/// 从字符串expression中匹配出符合正则表达式regex的部分
 - (NSString *)stringMatchRegex:(NSString*)regex;
 
 /**
@@ -198,16 +198,16 @@
  */
 - (NSString *)stringByTrimming;
 
-//! 隐藏手机号码中间的七位
+/// 隐藏手机号码中间的七位
 - (NSString *)hideMiddleMobileNumber;
 
-//! 获取账号的缩略形式。最长显示18位，多了则冒号显示，同时针对邮箱账号做了特殊处理
+/// 获取账号的缩略形式。最长显示18位，多了则冒号显示，同时针对邮箱账号做了特殊处理
 - (NSString *)abbrAccount;
 
-//! 从身份证号码中提取生日
+/// 从身份证号码中提取生日
 - (NSDate *)birthdayFromIdCardNo;
 
-//! 从身份证号码中提取性别.男：M ，女：F
+/// 从身份证号码中提取性别.男：M ，女：F
 - (NSString *)genderFromIdCardNo;
 
 

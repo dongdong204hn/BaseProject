@@ -24,9 +24,9 @@ typedef NS_ENUM(NSInteger, ZBAlertAnmiationType) {
 @property (nonatomic, strong) UIView *backgroundView; //默认是一个黑色半透明UIView
 @property (nonatomic, strong) UIView *contentView;
 @property (nonatomic, assign) ZBAlertAnmiationType animationType;
-//! 显示时的背景色
+/// 显示时的背景色
 @property (nonatomic, strong) UIColor *showColor;
-//! 是否已显示
+/// 是否已显示
 @property (nonatomic, assign) BOOL isShow;
 
 @property (nonatomic, copy) ZBCustomAlertDismissBlock dismissBlock;

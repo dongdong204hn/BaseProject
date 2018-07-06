@@ -170,7 +170,7 @@
 - (void)centerHorizontal;
 - (void)makeCenter;
 
-//! 视图相对屏幕的位置
+/// 视图相对屏幕的位置
 - (CGRect)relativeFrameToScreen;
 
 /**

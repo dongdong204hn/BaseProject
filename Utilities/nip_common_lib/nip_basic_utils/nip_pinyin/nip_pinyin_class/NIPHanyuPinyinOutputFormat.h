@@ -8,20 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
-//! 声调类型
+/// 声调类型
 typedef enum {
   ToneTypeWithToneNumber, //数字来标识
   ToneTypeWithoutTone, //不显示声调
   ToneTypeWithToneMark //直接在字母上方标识声调
 }ToneType;
 
-//! 大小写
+/// 大小写
 typedef enum {
     CaseTypeUppercase, //全大写
     CaseTypeLowercase  //全小写
 }CaseType;
 
-//! v的显示类型
+/// v的显示类型
 typedef enum {
     VCharTypeWithUAndColon, //u:
     VCharTypeWithV, //v
